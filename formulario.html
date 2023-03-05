@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="icon" type="image/x-icon" href="./images/logo.webp">
+        <title>Xemplorant - Todo el contenido relacionado con Valorant</title>
+    </head>
+    <body id="cuerpo">
+        <header>
+            <nav>
+                <a href="./formulario.html">
+                    <img loading="lazy" src="./images/logo.webp" width="360" height="360" alt="Logo de la Pagina" class="logo">
+                </a>
+                <ul class="enlaces-menu">
+                    <li class="links-menu"><a href="./index.html" class="enlaces">INICIO</a></li>
+                    <li class="links-menu"><a href="./personajes.html" class="enlaces">PERSONAJES</a></li>
+                    <li class="links-menu"><a href="./mapasups.html" class="enlaces">MAPAS</a></li>
+                    <li class="links-menu"><a href="./armas.html" class="enlaces">ARMAS</a></li>
+                    <li class="links-menu-1"><a href="./formulario.html" class="enlaces">FORMULARIO</a></li>
+                </ul>
+                <button class="ham" type="button">
+                    <span class="br-1"></span>
+                    <span class="br-2"></span>
+                    <span class="br-3"></span>
+                </button>
+            </nav>
+        </header>
+        <main>
+            <div class="contenido-f">
+                <form onsubmit="procesarRespuesta();" id="formulario">
+                    <p class="consejo">Te recomiendo que antes de realizar el formulario hayas jugado al juego porque es debido
+                        a muchas variables el rol que juegues ademas de que debes de estar agusto con dicho rol. Nuestro formulario
+                        te dara una respuesta aproximada debido a tus respuestas para ayudarte a seleccionar que rol jugar y consecuentemente
+                        el personaje, aunque no todos los personajes se pueden jugar unicamente en su rol hay algunos que se pueden jugar en diferentes roles
+                        puedes obtener mas informacion en el apartado de personajes.<br><br>
+                    </p>
+                    <p class="preguntas"><span style="color:#DA0037;">Pregunta 1.</span>&nbsp;&nbsp;¿Te consideras una persona agresiva?</p>
+                        <input type="radio" name="p1" value="si" id="respuestas">&nbsp;&nbsp;Si<br>
+                        <input type="radio" name="p1" value="no" id="respuestas">&nbsp;&nbsp;No<br>
+                    <p class="preguntas"><span style="color:#DA0037;">Pregunta 2.</span>&nbsp;&nbsp;¿Te consideras una persona con iniciativa?</p>
+                        <input type="radio" name="p2" value="si" id="respuestas">&nbsp;&nbsp;Si<br>
+                        <input type="radio" name="p2" value="no" id="respuestas">&nbsp;&nbsp;No<br>
+                    <p class="preguntas"><span style="color:#DA0037;">Pregunta 3.</span>&nbsp;&nbsp;¿Si tuvieras que elegir en una brújula una direccion cual seria tu elección?</p>
+                        <input type="radio" name="p3" value="norte" id="respuestas">&nbsp;&nbsp;Norte<br>
+                        <input type="radio" name="p3" value="sur" id="respuestas">&nbsp;&nbsp;Sur<br>
+                        <input type="radio" name="p3" value="este" id="respuestas">&nbsp;&nbsp;Este<br>
+                        <input type="radio" name="p3" value="oeste" id="respuestas">&nbsp;&nbsp;Oeste<br>
+                    <p class="preguntas"><span style="color:#DA0037;">Pregunta 4.</span>&nbsp;&nbsp;¿Consideras que tienes un buen mental?</p>
+                        <input type="radio" name="p4" value="si" id="respuestas">&nbsp;&nbsp;Si<br>
+                        <input type="radio" name="p4" value="no" id="respuestas">&nbsp;&nbsp;No<br>
+                    <p class="preguntas"><span style="color:#DA0037;">Pregunta 5.</span>&nbsp;&nbsp;¿Consideras que tienes un buen aim (punteria) dentro del juego?</p>
+                        <input type="radio" name="p5" value="si" id="respuestas">&nbsp;&nbsp;Si<br>
+                        <input type="radio" name="p5" value="no" id="respuestas">&nbsp;&nbsp;No<br>
+                        <input type="radio" name="p5" value="puede_ser" id="respuestas">&nbsp;&nbsp;Puede ser<br><br>
+                    <input type="submit" id="env" value="Enviar Formulario">
+                </form>
+                <div id="resultado">
+                    <img src="./images/formulario/duelista.webp" alt="Duelista" id="resul1">
+                    <img src="./images/formulario/controlador.webp" alt="Controlador" id="resul2">
+                    <img src="./images/formulario/centinela.webp" alt="Centinela" id="resul3">
+                    <img src="./images/formulario/iniciador.webp" alt="Iniciador" id="resul4">
+                    <img src="./images/formulario/polivalente.webp" alt="Polivalente/Flex" id="resul5">
+                </div>
+            </div>
+        </main>
+        <footer id="ccimages2">Xemplorant &copy; Todos los derechos reservados 2023-2024</footer>
+        <script src="./java/boton.js"></script>
+        <script src="./java/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,1872 @@
+/*Fuentes a aplicar en la pagina*/
+@font-face {
+    font-family: 'Mark Pro';
+    src:url(../fonts/Mark\ Pro.ttf);
+}
+@font-face {
+    font-family: 'Tungsten Bold';
+    src: url(../fonts/Tungsten-Bold.ttf);
+}
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #EDEDED;
+    font-family: "Mark Pro";
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #151922;
+}
+.logo{
+    align-items: center;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    margin-top: 4px;
+}
+/*Estilos del menu*/
+nav{
+    background-color: #3e3d53;
+    align-items: center;
+    display: flex;
+}
+nav ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 1em;
+}
+nav ul li{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+nav ul li a{
+    font-weight: 600;
+    text-decoration: none;
+}
+.enlaces-menu li{
+    padding: 15px 40px;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+/*Boton para las mediaqueries*/
+.ham{
+    display: none;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+.ham span{
+    display: block;
+    background-color: #f3f3f3;
+    height: 3px;
+    width: 28px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+/*Estilo de los enlaces del menu cuando estan activos o sobre ellos*/
+.links-menu-1{
+    background-color: #5F5D7F;
+    border-radius: 10px;
+    margin-bottom: -4px;
+    border-bottom: 4px solid #DA0037;
+}
+.links-menu:hover{
+    background-color: #5F5D7F;
+    border-radius: 10px;
+    margin-bottom: -4px;
+    border-bottom: 4px solid #8684A5;
+}
+/*Contenido de Inicio*/
+.ajustes-p{
+    line-height: 1.4;
+}
+.titulo{
+    margin-top: 1em;
+    margin-left: 1em;
+    letter-spacing: 1.5px;
+    font-size: 1.3rem;
+}
+.titulo:hover{
+    color: #DA0037;
+    transition: 1s ease;
+    cursor: default;
+}
+.ajustes-p h4{
+    color: #DA0037;
+    margin-top: 0.5em;
+}
+.noticia-ifr{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+.noticia-ifr .cnot{
+    text-align: justify;
+    width: 40%;
+    margin-top: 1em;
+}
+.noticia-ifr iframe{
+    margin-top: 1em;
+}
+.noticia-ifr .contenido-noticia{
+    display: flex;
+    justify-content: space-around;
+}
+.noticia-img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+.noticia-img .cnot{
+    text-align: justify;
+    width: 40%;
+    margin-top: 1em;
+}
+.noticia-img img{
+    margin-top: 1em;
+}
+.noticia-img .contenido-noticia{
+    display: flex;
+    justify-content: space-around;
+}
+.noticia-parche{
+    display: flex;
+    flex-direction: column;
+}
+.noticia-parche .cnot{
+    margin-top: 0.5em;
+    margin-left: 3em;
+    width: 80%;
+}
+.noticia-parche .ajustes-p{
+    margin: 0 3em;
+    width: 80%;
+    text-align: justify;
+}
+.ajustes-p ul li{
+    list-style: circle;
+}
+.noticia-parche h3{
+    margin-top: 0.5em;
+}
+/*Contenido de Personajes*/
+.container{
+    display: flex;
+    margin: 3vh 15vh;
+}
+#contenido{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+#tabla{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    border-collapse: collapse;
+    padding: 0;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.columnas{
+    border: 4px solid #EDEDED;
+}
+.filas img{
+    margin-bottom: -5px;
+}
+td a img:hover{
+    opacity: 40%;
+    transition: 0.36s;
+}
+h1{
+    grid-area: titulo;
+}
+.imagen{
+    grid-area: imagen;
+    width: 100%;
+}
+.descripcion{
+    grid-area: descripcion;
+}
+.under-image{
+    grid-area: def;
+    margin-top: 3vh;
+    padding-bottom: 2vh;
+}
+label{
+    grid-area: def;
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 38vh;
+    justify-content: center;
+}
+.habilidades,.titulo-h,.contenido-h{
+    display: flex;
+    align-items: flex-end;
+    grid-area: habilidades;
+}
+ul{
+    list-style: none;
+    margin-left: 5vh;
+}
+ul li a img{
+    border: 1.5px solid white;
+    border-radius: 7px;
+}
+ul li{
+    margin-top: 2vh;
+    padding-bottom: 3vh;
+}
+ul li a img:hover{
+    color: #EDEDED;
+    background-color: #DA0037;
+}
+.titulo-h{
+    color: #DA0037;
+}
+.contenido-h{
+    color: #EDEDED;
+}
+progress{
+    appearance: none;
+    margin-top: 0.2vh;
+    height: 15px;
+    border-radius: 50px;
+}
+progress::-webkit-progress-value{
+    background-color:#DA0037;
+    border-radius: 70px;
+}
+progress::-webkit-progress-bar{
+    background-color: #EDEDED;
+    border-radius: 70px;
+}
+#astra{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#breach{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#brimstone{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#chamber{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#cypher{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#fade{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#harbor{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#jett{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#sage{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#sova{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#kayo{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#killjoy{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#neon{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#omen{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#phoenix{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#raze{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#reyna{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#skye{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+#viper{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+
+#yoru{
+    display: none;
+    grid-template-areas: "titulo descripcion descripcion"
+                        " titulo def def"
+                        " imagen habilidades habilidades"
+                        " imagen habilidades habilidades";
+                        grid-template-columns: auto;
+                        grid-template-rows: auto;
+}
+/*Contenido de Formulario*/
+#cuerpo{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.contenido-f{
+    display: flex;
+    margin: 1vh 10vh;
+    justify-content: center;
+}
+#formulario{
+    display: block;
+    
+    margin: 3vh 5vh;
+    line-height: 1.6;
+}
+.consejo{
+    font-size: 1.05rem;
+    line-height: 1.3;
+    text-align: justify;
+}
+#env{
+    border-radius: 6px;
+    padding: 4px;
+    background: #DA0037;
+    transition:0.5s;
+}
+#env:hover{
+    background-color: #EDEDED;
+    color: #DA0037;
+}
+#respuestas{
+    margin-left: 2vh;
+}
+#respuestas{
+    appearance: none;
+    color: currentColor;
+    width: 7px;
+    height: 7px;
+    border: 1.5px solid currentColor;
+    border-radius: 50%;
+    background-color: #EDEDED;
+}
+#respuestas::before{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 100ms transform ease-in-out;
+}
+#respuestas:checked{
+    background-color: #DA0037;
+    transition: 0.34s;
+    width: 7px;
+    height: 7px;
+}
+#resultado{
+    display: flex;
+    justify-content: center;
+}
+/*Duelista*/
+#resul1{
+    width: 90%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+/*Controlador*/
+#resul2{
+    width: 90%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+/*Centinela*/
+#resul3{
+    width: 90%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+/*Iniciador*/
+#resul4{
+    width: 90%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+/*Polivalente/Flex*/
+#resul5{
+    width: 90%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+/*Estilo del pie de pagina*/
+footer{
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-weight: 600;
+    width: 100%;
+}
+footer:hover{
+    cursor: default;
+    color: #DA0037;
+    transition: 0.3s linear;
+}
+#ccimages{
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    font-weight: 600;
+    width: 100%;
+}
+#ccimages2{
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.2em;
+    margin-bottom: 2em;
+    font-weight: 600;
+    width: 100%;
+}
+.icono-volver box-icon{
+    margin-top: 1.4em;
+    margin-left: 2em;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+/*Mediaqueries*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+@media only screen and (max-width:320px){
+    /*Body*/
+    body{
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    /*Contenido del Menu*/
+    .ham{
+        margin-left: 1rem;
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.563rem;
+        transition: 0.2s 0.1s;
+    }
+    .ham:hover{
+        transform: rotate(360deg);
+    }
+    /*Estilo menu cuando se enciende*/
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        box-sizing: border-box;
+        padding-top: 0.938rem;
+        padding-bottom: 1.563rem;
+        width: 100%;
+        min-width: 100%;
+    }
+    /*Enlaces del menu*/
+    .enlaces-menu{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: none;
+        opacity: 0;
+    }
+    .enlaces-menu li{
+        width: 100%;
+        text-align: center;
+        padding: 1.25rem;
+    }
+    /*Contenido de Inicio*/
+    .noticia-ifr{
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        margin-bottom: 1.5em;
+    }
+    .noticia-ifr .titulo{
+        max-width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+    .contenido-noticia{
+        display: flex;
+        flex-direction: column;
+    }
+    .noticia-ifr .cnot{
+        width: 100%;
+    }
+    .noticia-ifr iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .noticia-img{
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        margin-bottom: 1.5em;
+    }
+    .noticia-img .titulo{
+        max-width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+    .noticia-img .cnot{
+        width: 100%;
+    }
+    .noticia-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .noticia-parche{
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        margin-bottom: 1.5em;
+    }
+    .noticia-parche .titulo{
+        max-width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+    .noticia-parche .cnot{
+        width: 100%;
+        margin-left: 0;
+    }
+    .noticia-parche .ajustes-p{
+        width: 95%;
+        margin-left: 0.5em;
+    }
+    .ajustes-p h3{
+        text-align: left;
+    }
+    .ajustes-p h4{
+        text-align: left;
+    }
+    .ajustes-p #min{
+        color: white;
+    }
+    footer{
+        text-align: center;
+        width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    /*Contenido de los personajes*/
+    .container{
+        max-width: 90%;
+        margin-left: 7%!important;
+        margin-right: 7%!important;
+    }
+    #content{
+        width: 100%;
+    }
+    #contenido{
+        font-size: 1rem;
+        width: 100%;
+    }
+    #tabla {
+        margin-top: 2em;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 15%!important;
+        margin-right: 15%!important;
+    }
+    .filas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #ccimages{
+        width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    /*Estilo dentro de los personajes*/
+    .imagen{
+        margin-top: 0.5em;
+        width: 75vw;
+    }
+    .descripcion{
+        display: flex;
+        margin-top: 1em;
+        text-align: justify;
+        font-size: 1rem;
+        width: 85%;
+    }
+    .under-image{
+        width: 85%;
+    }
+    label {
+        width: 85%;
+        margin-left: 0;
+        margin-top: 5em;
+    }
+    ul{
+        width: 85%;
+        margin-left: 0;
+        text-align: justify;
+    }
+    #astra{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #breach{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #brimstone{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #chamber{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #cypher{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #fade{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #harbor{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #jett{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #sage{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #sova{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #kayo{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #killjoy{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #neon{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #omen{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #phoenix{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #raze{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #reyna{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #skye{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    #viper{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    
+    #yoru{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    /*Estilos de los mapas*/
+    #mapas{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    #mapas div a img{
+        width: 100%;
+    }
+    #ccimages2{
+        width: 90%;
+    }
+    /*Estilos del formulario*/
+    .contenido-f{
+        width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    form .consejo{
+        width: 146%;
+        margin-top: -2vh;
+        margin-left: -5vh;
+    }
+    form .preguntas{
+        width: 146%;
+        margin-left: -5vh;
+    }
+    form #respuestas{
+        margin-left: -3vh;
+        width: 6%;
+        height: 1%;
+    }
+    form #env{
+        margin-left: 15%!important;
+        margin-right: 15%!important;
+    }
+    #ccimages2{
+        margin-top: 0.1vh;
+    }
+    /*Animacion para cuando pulsamos sobre el boton*/
+    @keyframes muestraMenu{
+        from{opacity: 0;}
+        to{opacity: 1;}
+    }
+}
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+@media only screen and (min-width:321px) and (max-width:768px){
+    /*Body*/
+    body{
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    /*Contenido del Menu*/
+    .ham{
+        margin-left: 1rem;
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.563rem;
+        transition: 0.2s 0.1s;
+    }
+    .ham:hover{
+        transform: rotate(360deg);
+    }
+    /*Estilo menu cuando se enciende*/
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        box-sizing: border-box;
+        padding-top: 0.938rem;
+        padding-bottom: 1.563rem;
+        width: 100%;
+        min-width: 100%;
+    }
+    /*Enlaces del menu*/
+    .enlaces-menu{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: none;
+        opacity: 0;
+    }
+    .enlaces-menu li{
+        width: 100%;
+        text-align: center;
+        padding: 1.25rem;
+    }
+    /*Contenido de Inicio*/
+    .noticia-ifr{
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        margin-bottom: 1.5em;
+    }
+    .noticia-ifr .titulo{
+        max-width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+    .contenido-noticia{
+        display: flex;
+        flex-direction: column;
+    }
+    .noticia-ifr .cnot{
+        width: 100%;
+    }
+    .noticia-ifr iframe{
+        width: 100%;
+        height: 35vh;
+    }
+    .noticia-img{
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        margin-bottom: 1.5em;
+    }
+    .noticia-img .titulo{
+        max-width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+    .noticia-img .cnot{
+        width: 100%;
+    }
+    .noticia-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .noticia-parche{
+        max-width: 90%;
+        margin-left: 5vh;
+        margin-bottom: 1.5em;
+    }
+    .noticia-parche .titulo{
+        max-width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+    .noticia-parche .cnot{
+        max-width: 100%;
+        margin-left: 0;
+        text-align: justify;
+    }
+    .noticia-parche .ajustes-p{
+        min-width: 100%;
+        margin-left: 0.5em;
+    }
+    .ajustes-p h3{
+        text-align: left;
+    }
+    .ajustes-p h4{
+        text-align: left;
+    }
+    .ajustes-p #min{
+        color: white;
+    }
+    footer{
+        text-align: center;
+        width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    /*Contenido de los personajes*/
+    .container{
+        min-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    #content{
+        width: 100%;
+    }
+    #contenido{
+        font-size: 1rem;
+        width: 100%;
+    }
+    #tabla {
+        margin-top: 2em;
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 28%!important;
+        margin-right: 25%!important;
+    }
+    .filas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #ccimages{
+        width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    /*Estilo dentro de los personajes*/
+    .imagen{
+        margin-top: 0.5em;
+        width: 75vw;
+        height: auto;
+    }
+    .descripcion{
+        display: flex;
+        margin-top: 1em;
+        text-align: justify;
+        font-size: 1rem;
+        width: 78vw;
+    }
+    .under-image{
+        width: 35vw;
+    }
+    label {
+        max-width: 35vw;
+        margin-left: 35vw;
+    }
+    ul{
+        width: 75vw;
+        margin-left: 0;
+        text-align: justify;
+    }
+    #astra{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #breach{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #brimstone{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #chamber{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #cypher{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #fade{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #harbor{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #jett{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #sage{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #sova{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #kayo{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #killjoy{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #neon{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #omen{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #phoenix{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #raze{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #reyna{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #skye{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #viper{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    
+    #yoru{
+        display:none;
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        grid-template-areas:"titulo"
+                            "imagen"
+                            "descripcion"
+                            "def"
+                            "habilidades";
+    }
+    /*Estilos de los mapas*/
+    #mapas{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    #mapas div a img{
+        width: 100%;
+    }
+    #ccimages2{
+        width: 90%;
+    }
+    /*Estilos del formulario*/
+    .contenido-f{
+        width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    form .consejo{
+        width: 85vw;
+        margin-top: -2vh;
+    }
+    form .preguntas{
+        width: 85vw;
+    }
+    form #respuestas{
+        width: 3%;
+        height: 1%;
+    }
+    form #env{
+        margin-left: 30%!important;
+        margin-right: 30%!important;
+    }
+    #ccimages2{
+        margin-top: 0.1vh;
+    }
+    /*Animacion para cuando pulsamos sobre el boton*/
+    @keyframes muestraMenu{
+        from{opacity: 0;}
+        to{opacity: 1;}
+    }
+}
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+@media only screen and (min-width:769px) and (max-width:1024px){
+    /*Body*/
+    body{
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    /*Body*/
+    body{
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    /*Button of menu*/
+    .ham{
+        margin-left: 1rem;
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.563rem;
+        transition: 0.2s 0.1s;
+    }
+    .ham:hover{
+        transform: rotate(360deg);
+    }
+    /*Menu when it's on*/
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        box-sizing: border-box;
+        padding-top: 0.938rem;
+        padding-bottom: 1.563rem;
+        width: 100%;
+        min-width: 100%;
+    }
+    /*Links of menu*/
+    .enlaces-menu{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: none;
+        opacity: 0;
+    }
+    .enlaces-menu li{
+        width: 100%;
+        text-align: center;
+        padding: 1.25rem;
+    }
+    /*Estilos de inicio*/
+    .noticia-ifr{
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        margin-bottom: 1.5em;
+    }
+    .noticia-ifr .titulo{
+        max-width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+    .noticia-ifr iframe{
+        width: 50vw;
+        height: 30vw;
+    }
+    .noticia-ifr .cnot{
+        width: 35%;
+    }
+    .noticia-img{
+        max-width: 90%;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        margin-bottom: 1.5em;
+    }
+    .noticia-img .titulo{
+        max-width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+    .noticia-img img{
+        display: flex;
+        width: 50vw;
+        height: 30vw;
+        margin-left: 20%!important;
+        margin-right: 20%!important;
+    }
+    .noticia-img .cnot{
+        width: 100%;
+    }
+    .noticia-img .contenido-noticia{
+        display: flex;
+        flex-direction: column;
+    }
+    /*Estilos de personajes*/
+    #tabla {
+        margin-top: 2em;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin-left: 5%!important;
+        margin-right: 10%!important;
+    }
+    .filas {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    /*EStilos dentro de los personajes*/
+    #astra{
+        border: 1px solid white;
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #breach{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #brimstone{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #chamber{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #cypher{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #fade{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #harbor{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #jett{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #sage{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #sova{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #kayo{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #killjoy{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #neon{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #omen{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #phoenix{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #raze{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #reyna{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #skye{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    #viper{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    
+    #yoru{
+        display:none;
+        width: 100vw;
+        grid-template-areas:"titulo titulo"
+                            "imagen descripcion"
+                            "def def"
+                            "habilidades habilidades";
+                            grid-template-columns: auto;
+                            grid-template-rows: auto;
+    }
+    .imagen{
+        margin-top: 0.5em;
+        width: 40vw;
+        height: auto;
+    }
+    .descripcion{
+        width: 30vw;
+        margin-top: 1vh;
+    }
+    ul{
+        width: 170%;
+        margin-left: 0;
+        text-align: justify;
+    }
+    /*Estilos de mapas*/
+    #mapas{
+        margin-left: 0;
+        flex-wrap: wrap;
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    #mapas div a img{
+        width: 85%;
+        margin-left: 10%!important;
+        margin-right: 10%!important;
+    }
+    #ccimages2{
+        width: 100%;
+    }
+    /*Animacion del boton en resoluciones mas pequeñas*/
+    @keyframes muestraMenu{
+        from{opacity: 0;}
+        to{opacity: 1;}
+    }
+}
+/*Style when menu it's on*/
+.enlaces-menu.activado{
+    display: flex;
+    animation: muestraMenu 350ms ease-in-out both;
+}
+/*Bars when menu's on*/
+.br-1.animado{
+    transform: rotate(-45deg) translate(-10px,8px);
+}
+.br-2.animado{
+    opacity: 0;
+}
+.br-3.animado{
+    transform: rotate(45deg) translate(-10px,-8px);
+}

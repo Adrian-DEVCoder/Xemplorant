@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./css/mapas.css"/>
+        <link rel="icon" type="image/x-icon" href="./images/logo.webp">
+        <title>Xemplorant - Todo el contenido relacionado con Valorant</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="./mapasups.html">
+                    <img loading="lazy" src="./images/logo.webp" width="360" height="360" alt="Logo de la Pagina" class="logo">
+                </a>
+                <ul class="enlaces-menu">
+                    <li class="links-menu"><a href="./index.html" class="enlaces">INICIO</a></li>
+                    <li class="links-menu"><a href="./personajes.html" class="enlaces">PERSONAJES</a></li>
+                    <li class="links-menu-1"><a href="./mapasups.html" class="enlaces">MAPAS</a></li>
+                    <li class="links-menu"><a href="./armas.html" class="enlaces">ARMAS</a></li>
+                    <li class="links-menu"><a href="./formulario.html" class="enlaces">FORMULARIO</a></li>
+                </ul>
+                <button class="ham" type="button">
+                    <span class="br-1"></span>
+                    <span class="br-2"></span>
+                    <span class="br-3"></span>
+                </button>
+            </nav>
+        </header>
+        <main>
+            <div id="contenido-map">
+                <p id="contenido-m">En la siguiente sección podras obtener información sobre los mapas que
+                    tenemos dentro del juego. Para comprobar las caracteristicas sobre cada uno de ellos
+                    y todas las posiciones dentro de cada mapa. Puedes obtener mas información clickando
+                    sobre las imagenes: </p>
+                <br>
+                <div class="mapas-container">
+                    <div id="mapas">
+                        <div id="m-ascent">
+                            <a id="lascent" onclick=mostrarMapas(); href="#"><img loading="lazy" src="./images/mapas/ascent.webp" title="Ascent" alt="Ascent"></a>
+                        </div>
+                        <div id="m-bind">
+                            <a href="#" id="lbind" onclick=mostrarMapas();><img loading="lazy" src="./images/mapas/bind.webp" title="Bind" alt="Bind"></a>
+                        </div>
+                        <div id="m-split">
+                            <a href="#" id="lsplit" onclick=mostrarMapas();><img loading="lazy" src="./images/mapas/split.webp" title="Split" alt="Split"></a>
+                        </div>
+                        <div id="m-haven">
+                            <a href="#" id="lhaven" onclick=mostrarMapas();><img loading="lazy" src="./images/mapas/haven.webp" title="Haven" alt="Haven"></a>
+                        </div>
+                        <div id="m-breeze">
+                            <a href="#" id="lbreeze" onclick=mostrarMapas();><img loading="lazy" src="./images/mapas/breeze.webp" title="Breeze" alt="Breeze"></a>
+                        </div>
+                        <div id="m-icebox">
+                            <a href="#" id="licebox" onclick=mostrarMapas();><img loading="lazy" src="./images/mapas/icebox.webp" title="Icebox" alt="Icebox"></a>
+                        </div>
+                        <div id="m-fracture">
+                            <a href="#" id="lfracture" onclick=mostrarMapas();><img loading="lazy" src="./images/mapas/fracture.webp" title="Fracture" alt="Fracture"></a>
+                        </div>
+                        <div id="m-pearl">
+                            <a href="#" id="lpearl" onclick=mostrarMapas();><img loading="lazy" src="./images/mapas/pearl.webp" title="Pearl" alt="Pearl"></a>
+                        </div>
+                        <div id="m-lotus">
+                            <a href="#" id="llotus" onclick=mostrarMapas();><img loading="lazy" src="./images/mapas/lotus.webp" title="Lotus" alt="Lotus"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ascent">
+                <h1>ASCENT</h1>
+                <div class="ima-info">
+                <img src="./images/mapas/ascent_posis.webp" alt="Posiciones Ascent" class="posis">
+                <p class="info-m">Ascent fue el primer mapa que se lanzó tras la versión beta de VALORANT. Se caracteriza por su patio abierto pensado para los combates de posicionamiento y desgaste. Además, divide las diferentes localizaciones del mapa.</p>
+                </div>
+                <p class="caracteristicas-m">
+                    <span id="minititles">Localización </span>- Venecia, Italia<br>
+                    <span id="minititles">Fecha de Lanzamiento </span>- Parche 1 (2 de Junio de 2020)
+                </p>
+            </div>
+            <div id="bind">
+                <h1>BIND</h1>
+                <div class="ima-info">
+                <img src="./images/mapas/bind_posis.webp" alt="Posiciones Bind" class="posis">
+                <p class="info-m">Bind se ambienta en Marruecos y en él tenemos dos teletransportadores que nos permiten rotar con facilidad de la zona “A” a “B” y viceversa. Sin embargo, al ser de un solo sentido y dejarnos siempre en la misma ubicación será fácil encontrar a quien los use. Por ello, es un mapa muy bueno para los flanqueos.</p>
+                </div>
+                <p class="caracteristicas-m">
+                    <span id="minititles">Localización </span>- Rabat, Marruecos<br>
+                    <span id="minititles">Fecha de Lanzamiento </span>- Beta (7 de Abril de 2020)
+                </p>
+            </div>
+            <div id="split">
+                <h1>SPLIT</h1>
+                <div class="ima-info">
+                <img src="./images/mapas/split_posis.webp" alt="Posiciones Split" class="posis">
+                <p class="info-m">En split tenemos dos ubicaciones separadas por un centro elevado que dispone de dos zonas de cuerdas para facilitar el movimiento entre ellas. Es una auténtica pesadilla para los atacantes, sobre todo, por la cantidad de zonas con cuello de botella que favorece a los defensores. El uso de agentes como Raze o Viper son prácticamente claves para el desenlace del encuentro.</p>
+                </div>
+                <p class="caracteristicas-m">
+                    <span id="minititles">Localización </span>- Tokio, Japón<br>
+                    <span id="minititles">Fecha de Lanzamiento </span>- Beta (7 de Abril de 2020)
+                </p>
+            </div>
+            <div id="haven">
+                <h1>HAVEN</h1>
+                <div class="ima-info">
+                <img src="./images/mapas/haven_posis.webp" alt="Posiciones Haven" class="posis">
+                <p class="info-m">Haven es el único mapa de VALORANT que nos presenta tres zonas diferentes para plantar la bomba. Por ello, las partidas en este mapa son un poco más complejas para los defensores que tienen que diversificarse para cubrir los tres puntos. El mapa está ambientado en un monasterio olvidado de Bután y tiene muchas líneas de visión que dificultan la labor de los atacantes si no tienen la utilidad necesaria.</p>
+                </div>
+                <p class="caracteristicas-m">
+                    <span id="minititles">Localización </span>- Timbu, Bután<br>
+                    <span id="minititles">Fecha de Lanzamiento </span>- Beta (7 de Abril de 2020)
+                </p>
+            </div>
+            <div id="breeze">
+                <h1>BREEZE</h1>
+                <div class="ima-info">
+                <img src="./images/mapas/breeze_posis.webp" alt="Posiciones Breeze" class="posis">
+                <p class="info-m">Breeze es uno de los mapas de VALORANT más idílicos. Nos presenta dos zonas de bombas extremadamente grandes con una gran variedad de formas de llegar a ella. Será muy importante que vigilemos nuestros flancos, sobre todo, en la zona de ventilación que puede sorprender a cualquiera.</p>
+                </div>
+                <p class="caracteristicas-m">
+                    <span id="minititles">Localización </span>- Oceano Atlántico<br>
+                    <span id="minititles">Fecha de Lanzamiento </span>- Parche 2.08 (27 de Abril de 2021)
+                </p>
+            </div>
+            <div id="icebox">
+                <h1>ICEBOX</h1>
+                <div class="ima-info">
+                <img src="./images/mapas/icebox_posis.webp" alt="Posiciones Icebox" class="posis">
+                <p class="info-m">Icebox está ambientado en las frías tundras del norte de Rusia y tiene muchos recovecos tanto para los atacantes como para los defensores gracias a los contenedores. No obstante, algunas veces puede darnos la sensación de estar en un laberinto. Para la zona de A podremos usar las tirolinas, pero la zona de B es una localización abierta por lo que no podremos usar nada del entorno para protegernos.</p>
+                </div>
+                <p class="caracteristicas-m">
+                    <span id="minititles">Localización </span>- Isla de Bennett, Rusia<br>
+                    <span id="minititles">Fecha de Lanzamiento </span>- Parche 1.10 (13 de Octubre de 2020)
+                </p>
+            </div>
+            <div id="fracture">
+                <h1>FRACTURE</h1>
+                <div class="ima-info">
+                <img src="./images/mapas/fracture_posis.webp" alt="Posiciones Fracture" class="posis">
+                <p class="info-m">Inspirada por el Abismo de Helm del Señor de los Anillos, Fracture fue una vez una instalación de alto secreto que quedó dividida tras un experimento fallido con Radianita. Al tener dos zonas claramente diferenciadas las opciones de llegar a ella son diferentes al igual que la forma que tenemos para atacar o defenderla. Eso sí, cuidado con los flancos.</p>
+                </div>
+                <p class="caracteristicas-m">
+                    <span id="minititles">Localización </span>- Nuevo México, Estados Unidos<br>
+                    <span id="minititles">Fecha de Lanzamiento </span>- Parche 3.05 (8 de Septiembre de 2021)
+                </p>
+            </div>
+            <div id="pearl">
+                <h1>PEARL</h1>
+                <div class="ima-info">
+                <img src="./images/mapas/pearl_posis.webp" alt="Posiciones Pearl" class="posis">
+                <p class="info-m">Inspirada por el Abismo de Helm del Señor de los Anillos, Fracture fue una vez una instalación de alto secreto que quedó dividida tras un experimento fallido con Radianita. Al tener dos zonas claramente diferenciadas las opciones de llegar a ella son diferentes al igual que la forma que tenemos para atacar o defenderla. Eso sí, cuidado con los flancos.</p>
+                </div>
+                <p class="caracteristicas-m">
+                    <span id="minititles">Localización </span>- Lisboa, Portugal<br>
+                    <span id="minititles">Fecha de Lanzamiento </span>- Parche 5.0 (22 de Junio de 2022)
+                </p>
+            </div>
+            <div id="lotus">
+                <h1>LOTUS</h1>
+                <div class="ima-info">
+                <img src="./images/mapas/lotus_posis.webp" alt="Posiciones Lotus" class="posis">
+                <p class="info-m">Lotus es el primer mapa de VALORANT que incluye elementos arquitectónicos (escalinatas, arquitectura de corte rocoso y estilo davídico), junto con nuevas mecánicas (puertas giratorias, una puerta/muro destructible). Al igual que Haven, Lotus también cuenta con tres zonas para plantar y cada una de ellas tiene sus propias particularidades. El mapa puede parecer un laberinto al principio debido a las diferentes formas de viajar que se suman, además, todos los rincones del mapa que nos obligarán a estar pendiente de nuestros pasos.</p>
+                </div>
+                <p class="caracteristicas-m">
+                    <span id="minititles">Localización </span>- Montañas Sahyadri, India<br>
+                    <span id="minititles">Fecha de Lanzamiento </span>- Parche 6.0 (10 de Enero de 2023)
+                </p>
+            </div>
+        </main>
+        <footer id="ccimages2">Xemplorant &copy; Todos los derechos reservados 2023-2024</footer>
+        <script src="./java/boton.js"></script>
+        <script src="./java/main.js"></script>
+    </body>
+</html>

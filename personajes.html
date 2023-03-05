@@ -1,0 +1,494 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="icon" type="image/x-icon" href="./images/logo.webp">
+        <title>Xemplorant - Todo el contenido relacionado con Valorant</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="./personajes.html">
+                    <img loading="lazy" src="./images/logo.webp" width="360" height="360" alt="Logo de la Pagina" class="logo">
+                </a>
+                <ul class="enlaces-menu">
+                    <li class="links-menu"><a href="./index.html" class="enlaces">INICIO</a></li>
+                    <li class="links-menu-1"><a href="./personajes.html" class="enlaces">PERSONAJES</a></li>
+                    <li class="links-menu"><a href="./mapasups.html" class="enlaces">MAPAS</a></li>
+                    <li class="links-menu"><a href="./armas.html" class="enlaces">ARMAS</a></li>
+                    <li class="links-menu"><a href="./formulario.html" class="enlaces">FORMULARIO</a></li>
+                </ul>
+                <button class="ham" type="button">
+                    <span class="br-1"></span>
+                    <span class="br-2"></span>
+                    <span class="br-3"></span>
+                </button>
+            </nav>
+        </header>
+        <main class="container">
+            <div id="content">
+                <p id="contenido">
+                    En esta sección podras obtener información sobre cada uno de los personajes para así poder comprobar las características que tienen cada uno de
+                    ellos, además de que podras consultar sus habilidades y mucho más. Esta seccion te podra servir de guia tras completar nuestro formulario que te 
+                    indica que rol deberias jugar ya que en la información de los personajes podrás consultar el rol que tiene cada uno de ellos o los que pueden 
+                    adaptar ya que un personaje se puede jugar en mas roles de los indicados por el juego debido a sus habilidades o forma en la que se juega.<br>
+                    <br>Puedes obtener mas información sobre los personajes clickando sobre su icono:
+                </p>
+            <table id="tabla">
+                <tr class="filas">
+                    <td class="columnas"><a id="lastra" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/Astra_icon.webp" width=85 height=85 alt="Astra"></a></td>
+                    <td class="columnas"><a id="lbreach" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/breach-icon.webp" width=85 height=85 alt="Breach"></a></td>
+                    <td class="columnas"><a id="lbrim" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/Brimstone_Icon.webp" width=85 height=85 alt="Brimstone"></a></td>
+                    <td class="columnas"><a id="lchamber" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/chamber-icon.webp" width=85 height=85 alt="Chamber"></a></td>
+                    <td class="columnas"><a id="lcypher" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/cypher-icon.webp" width=85 height=85 alt="Cypher"></a></td>
+                    <td class="columnas"><a id="lfade" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/fade-icon.webp" width=85 height=85 alt="Fade"></a></td>
+                    <td class="columnas"><a id="lharbor" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/harbor-icon.webp" width=85 height=85 alt="Harbor"></a></td>
+                    <td class="columnas"><a id="ljett" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/jett-icon.webp" width=85 height=85 alt="Jett"></a></td>
+                    <td class="columnas"><a id="lsage" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/Sage_Icon.webp" width=85 height=85 alt="Sage"></a></td>
+                    <td class="columnas"><a id="lsova" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/sova-icon.webp" width=85 height=85 alt="Sova"></a></td>
+                </tr>
+                <tr class="filas">
+                    <td class="columnas"><a id="lkayo" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/kayo-icon.webp" width=85 height=85 alt="Kay/O"></a></td>
+                    <td class="columnas"><a id="lkill" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/killjoy-icon.webp" width=85 height=85 alt="Killjoy"></a></td>
+                    <td class="columnas"><a id="lneon" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/neon-icon.webp" width=85 height=85 alt="Neon"></a></td>
+                    <td class="columnas"><a id="lomen" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/omen-icon.webp" width=85 height=85 alt="Omen"></a></td>
+                    <td class="columnas"><a id="lphx" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/phoenix-icon.webp" width=85 height=85 alt="Phoenix"></a></td>
+                    <td class="columnas"><a id="lraze" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/raze-icon.webp" width=85 height=85 alt="Raze"></a></td>
+                    <td class="columnas"><a id="lreyna" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/Reyna_Icon.webp" width=85 height=85 alt="Reyna"></a></td>
+                    <td class="columnas"><a id="lskye" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/skye-icon.webp" width=85 height=85 alt="Skye"></a></td>
+                    <td class="columnas"><a id="lviper" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/viper-icon.webp" width=85 height=85 alt="Viper"></a></td>
+                    <td class="columnas"><a id="lyoru" onclick=mostrarPersonajes(); href="#"><img loading="lazy" src="./images/personajes/yoru-icon.webp" width=85 height=85 alt="Yoru"></a></td>
+                </tr>
+            </table>
+            </div>
+            <div id="astra">
+                <h1>ASTRA</h1>
+                <img loading="lazy" src="./images/personajes/Astra.webp" alt="Agente Astra" class="imagen">
+                <p class="under-image">ROLES: Controlador, Centinela, Iniciador</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="95"></progress></label>
+                <p class="descripcion">La agente Ghanesa Astra canaliza las energias del cosmos para remodelar los campos de batalla a su antojo. Con pleno dominio de su forma astral
+                    y un talento para una profunda previsión estrategica, siempre está eones por delante del proximo movimiento de su enemigo
+                </p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/q_astra.webp" alt="Pulso Astral" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q: PULSO ESTELAR</p>
+                <p class="contenido-h">Coloca estrellas en Modo Astral (X) ACTIVA una estrella para detonar un Pulso Estelar. El Pulso Estelar carga brevemente y luego ataca, lo que aturde a todos los jugadores en el área.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/e-astra.webp" alt="Nebulosa" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E: NEBULOSA</p>
+                <p class="contenido-h">Coloca estrellas en Modo Astral (X) ACTIVA una estrella para transformarla en una Nebulosa (humo). Usa (F) en una estrella para Disiparla, lo que devuelve la estrella para colocarla en una nueva ubicación después de un momento. Disipar forma una Nebulosa falsa brevemente en la ubicación de la estrella antes de regresar.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/c-astra.webp" alt="Pozo Gravitacional" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C: POZO GRAVITACIONAL</p>
+                <p class="contenido-h">Coloca estrellas en Modo Astral (X) ACTIVA una estrella para formar un Pozo Gravitacional. Los jugadores en el área son atraídos hacia el centro antes de que estalle, lo que causa que todos los jugadores que aún siguen atrapados se vuelvan frágiles.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/x_astra.webp" alt="Modo Astral/Vision Cosmica" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X: MODO ASTRAL/DIVISIÓN CÓSMICA</p>
+                <p class="contenido-h">ACTIVA (X) para entrar en Modo Astral donde puedes colocar estrellas con tu DISPARO PRINCIPAL. Puedes reactivar las estrellas más tarde, lo que las transforma en un Pulso Estelar, Nebulosa o Pozo Gravitacional. Cuando División Cósmica esté cargada, usa el DISPARO SECUNDARIO en Modo Astral para comenzar a apuntar, luego el DISPARO PRINCIPAL para elegir dos ubicaciones. Una División Cósmica infinita conecta los dos puntos que selecciones. División Cósmica bloquea las balas y amortigua considerablemente el audio.</p></li>
+                </ul>
+            </div>
+            <div id="breach">
+                <h1>BREACH</h1>
+                <img loading="lazy" src="./images/personajes/Breach.webp" alt="Agente Breach" class="imagen">
+                <p class="under-image">ROLES: Iniciador</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="60"></progress></label>
+                <p class="descripcion">Breach, el sueco biónico, dispara una serie de explosiones cinéticas controladas para abrirse paso por el territorio enemigo. 
+                    Su capacidad para infligir daño y sembrar el caos garantiza que los combates siempre estén de su parte.
+                </p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/q_breach.webp" alt="Explosion Cegadora" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - EXPLOSIÓN CEGADORA</p>
+                <p class="contenido-h">EQUIPA una carga explosiva cegadora. DISPARAD la carga para liberar una rápida explosión que atraviesa la pared. Cuando detona, la carga ciega a todos los jugadores que la estén mirando.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/e_breach.webp" alt="Falla" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - FALLA</p>
+                <p class="contenido-h">EQUIPA una bomba sísmica. MANTENED PULSADO DISPARAR para aumentar la distancia. SOLTAD para liberar un seísmo que aturdirá a todos los jugadores dentro de la zona y en una línea hasta ella.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/c-breach.webp" alt="Replica" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - RÉPLICA</p>
+                <p class="contenido-h">EQUIPA una carga explosiva de fusión. DISPARAD la carga para liberar una explosión que atraviesa la pared tras un retardo. La explosión inflige mucho daño a cualquiera que esté dentro del área afectada.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/x_breach.webp" alt="Fragor Imparable" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - FRAGOR IMPARABLE</p>
+                <p class="contenido-h">EQUIPA una carga explosiva sísmica. DISPARAD para liberar un seísmo que se extenderá por una gran zona en forma de cono. El seísmo aturde y lanza por los aires a todos los jugadores que estén en el interior de la zona.</p></li>
+                </ul>
+            </div>
+            <div id="brimstone">
+                <h1>BRIMSTONE</h1>
+                <img loading="lazy" src="./images/personajes/Brimstone.webp" alt="Agente Brimstone" class="imagen">
+                <p class="under-image">ROLES: Controlador</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="40"></progress></label>
+                <p class="descripcion">De origen estadounidense, Brimstone cuenta con un arsenal de órbita que garantiza que su equipo siempre vaya por delante. Su capacidad para proporcionar herramientas de utilidad con precisión y desde la distancia lo convierten en un comandante ejemplar.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/q_brim.webp" alt="Incendiario" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - INCENDIARIO</p>
+                <p class="contenido-h">EQUIPA un lanzagranadas incendiarias. DISPARAD una granada que detona cuando se detiene en el suelo, lo que genera una zona de fuego persistente que daña a los jugadores que estén en su interior.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/e_brim.webp" alt="Cortina de Humo" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - CORTINA DE HUMO</p>
+                <p class="contenido-h">EQUIPA un mapa táctico. DISPARAD para fijar ubicaciones en las que aparecerán nubes de humo de Brimstone. ALTERNAD EL MODO DE DISPARO para confirmar. Esto liberará nubes de humo de larga duración que bloquearán la visión en la zona seleccionada.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/c-brim.webp" alt="Baliza Estimulante" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - BALIZA ESTIMULANTE</p>
+                <p class="contenido-h">EQUIPA una baliza estimulante. DISPARAD para lanzar la baliza estimulante frente a Brimstone. Al aterrizar, la baliza estimulante creará un campo que otorgará Disparo rápido a los jugadores.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/x_brim.webp" alt="Golpe Orbital" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - GOLPE ORBITAL</p>
+                <p class="contenido-h">EQUIPA un mapa táctico. DISPARAD para lanzar un golpe orbital en la ubicación objetivo con un láser persistente, que provocará un gran daño prolongado a los jugadores que se encuentren en la zona seleccionada.</p></li>
+                </ul>
+            </div>
+            <div id="chamber">
+                <h1>CHAMBER</h1>
+                <img loading="lazy" src="./images/personajes/Chamber.webp" alt="Agente Chamber" class="imagen">
+                <p class="under-image">ROLES: Centinela, Duelista</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="70"></progress></label>
+                <p class="descripcion">Chamber, el diseñador de armas francés, siempre bien vestido y bien pertrechado y expulsa a los agresores con precisión letal. Aprovecha su arsenal personalizado para repeler, eliminar enemigos a distancia y crear la contingencia perfecta para cada plan.</p>
+                <ul> 
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/q_chamber.webp" alt="Cazador de Cabezas" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - CAZADOR DE CABEZAS</p>
+                <p class="contenido-h">ACTÍVALA para equipar una pistola pesada. Utiliza el botón de modo de DISPARO ALTERNATIVO para apuntar con la mira.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/echamber.webp" alt="Rendez Vous" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - RENDEZ-VOUS</p>
+                <p class="contenido-h">COLOCA un anclaje de teleportación. Mientras esté en el suelo y al alcance, REACTIVA la habilidad para teleportarte rápidamente al anclaje. El anclaje se puede recoger para VOLVER A COLOCARLO.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/cchamber.webp" alt="Marca Registrada" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - MARCA REGISTRADA</p>
+                <p class="contenido-h">COLOCA una trampa que escanea en busca de enemigos. Cuando un enemigo visible entra en el alcance, la trampa inicia una cuenta atrás y, a continuación, desestabiliza el terreno a su alrededor, lo que crea un campo persistente que ralentiza a los jugadores que se encuentren en su interior. La trampa se puede recoger para VOLVER A COLOCARLA.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xchamber.webp" alt="Tour de Force" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - TOUR DE FORCE</p>
+                <p class="contenido-h">ACTÍVALA para sacar un poderoso rifle de francotirador personalizado que mata a los enemigos con cualquier impacto directo. Matar a un enemigo genera un campo persistente que ralentiza a los jugadores que se encuentren en su interior.</p></li>
+                </ul>
+            </div>
+            <div id="cypher">
+                <h1>CYPHER</h1>
+                <img loading="lazy" src="./images/personajes/Cypher.webp" alt="Agente Cypher" class="imagen">
+                <p class="under-image">ROLES: Centinela</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="40"></progress></label>
+                <p class="descripcion">Cypher es un experto en información de Marruecos que se especializa en redes de vigilancia y es capaz de seguirle la pista al enemigo constantemente. No hay secreto a salvo ni maniobra que pase desapercibida. Cypher siempre está alerta.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qcypher.webp" alt="Cazador de Cabezas" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - PRISIÓN CIBERNÉTICA</p>
+                <p class="contenido-h">Lanza INSTANTÁNEAMENTE una prisión cibernética frente a Cypher. ACTIVADLA para crear una zona que bloquea la visión de los enemigos que la atraviesan.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/ecypher.webp" alt="Rendez Vous" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - CÁMARA ESPÍA</p>
+                <p class="contenido-h">EQUIPA una cámara espía. DISPARAD para desplegar la cámara en la ubicación objetivo. VOLVED A USAR la habilidad para controlar la vista de la cámara. Cuando tengáis control de la cámara, DISPARAD para lanzar un dardo marcador que revelará la ubicación de cualquier jugador alcanzado.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/ccypher.webp" alt="Marca Registrada" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - CABLE TRAMPA</p>
+                <p class="contenido-h">COLOCA una trampa que escanea en busca de enemigos. Cuando un enemigo visible entra en el alcance, la trampa inicia una cuenta atrás y, a continuación, desestabiliza el terreno a su alrededor, lo que crea un campo persistente que ralentiza a los jugadores que se encuentren en su interior. La trampa se puede recoger para VOLVER A COLOCARLA.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xcypher.webp" alt="Tour de Force" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - HURTO NEURONAL</p>
+                <p class="contenido-h">Usadla INSTANTANEAMENTE sobre un enemigo muerto en vuestra mira para revelar la posición de todos los jugadores enemigos vivos.</p></li>
+                </ul>
+            </div>
+            <div id="fade">
+                <h1>FADE</h1>
+                <img loading="lazy" src="./images/personajes/Fade.webp" alt="Agente Fade" class="imagen">
+                <p class="under-image">ROLES: Iniciador</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="50"></progress></label>
+                <p class="descripcion">Fade, la cazarrecompensas turca, controla el poder de las pesadillas para poner al descubierto los secretos de los enemigos. Armada con el terror mismo, da caza a sus objetivos y revela sus miedos más profundos, para después acabar con ellos en la oscuridad.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qfade.webp" alt="Apresar" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - APRESAR</p>
+                <p class="contenido-h">Equipa un orbe hecho con tinta de pesadilla. DISPARA para lanzar el orbe que, tras un determinado periodo de tiempo, caerá en picado hacia el suelo. Al llegar al suelo, la tinta explotará y se creará una zona de la que los enemigos no podrán escapar por las vías habituales. VUELVE A ACTIVAR la habilidad para que el proyectil caiga antes en un punto de su trayectoria.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/efade.webp" alt="Tormento" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - TORMENTO</p>
+                <p class="contenido-h">Equipa una pesadilla. DISPARA para lanzar el orbe que, tras un determinado periodo de tiempo, caerá en picado hacia el suelo. Al llegar al suelo, el orbe se convertirá en una pesadilla que revelará la ubicación de los enemigos que se encuentren en su línea de visión. Los enemigos pueden destruir la pesadilla. VUELVE A ACTIVAR la habilidad para que el proyectil caiga antes en un punto de su trayectoria.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/cfade.webp" alt="Acechador" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - ACECHADOR</p>
+                <p class="contenido-h">EQUIPA un Acechador. DISPARA para enviar al Acechador, que se desplazará en línea recta. El Acechador se adherirá a los enemigos o rastros situados en su cono de visión frontal y los perseguirá. Si los alcanza, reducirá sus campos de visión. MANTÉN PULSADO el botón de DISPARAR para dirigir al Acechador en la dirección de la mira.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xfade.webp" alt="Ocaso" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - OCASO</p>
+                <p class="contenido-h">EQUIPA el poder del miedo. DISPARA para emitir una oleada de energía terrorífica capaz de atravesar paredes. Esta energía deja un rastro hasta el oponente y, además, lo ensordece y aplica declive.</p></li>
+                </ul>
+            </div>
+            <div id="harbor">
+                <h1>HARBOR</h1>
+                <img loading="lazy" src="./images/personajes/Harbor.webp" alt="Agente Harbor" class="imagen">
+                <p class="under-image">ROLES: Controlador</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="70"></progress></label>
+                <p class="descripcion">Desde las costas de la India, Harbor llega al campo de batalla armado con tecnología ancestral capaz de controlar el agua. Libera espumosos torrentes y demoledoras olas para escudar a sus aliados y machacar a quien se interponga en su camino</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qharbor.webp" alt="Apresar" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - CALA</p>
+                <p class="contenido-h">EQUIPA una esfera de agua protectora. DISPARA para lanzarla. ALTERNA EL MODO DE DISPARO para lanzarla por debajo del hombro. Al impactar contra el suelo, genera un escudo de agua destructible que bloquea las balas.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/eharbor.webp" alt="Tormento" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - MAREA ALTA</p>
+                <p class="contenido-h">EQUIPA una pared de agua. DISPARA para lanzarla hacia adelante por el suelo. MANTÉN PULSADO para guiar el agua en la dirección de la mira, atravesando los obstáculos del terreno y creando una pared por todo el recorrido. ALTERNA EL MODO DE DISPARO mientras trazas la pared para acabarla antes de tiempo. Los jugadores golpeados se ven ralentizados.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/charbor.webp" alt="Acechador" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - CASCADA</p>
+                <p class="contenido-h">EQUIPA una ola de agua. DISPARA para enviarla hacia delante y hacer que atraviese las paredes. ÚSALA DE NUEVO para detener la ola. Los jugadores golpeados se ven ralentizados.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xharbor.webp" alt="Ocaso" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - AJUSTE DE CUENTAS</p>
+                <p class="contenido-h">EQUIPA todo el poder de tu artefacto. DISPARA para invocar un géiser que nace del suelo. Los enemigos de la zona serán objetivo de varios ataques del géiser. Los jugadores que se vean atrapados por un impacto quedan aturdidos.</p></li>
+                </ul>
+            </div>
+            <div id="jett">
+                <h1>JETT</h1>
+                <img loading="lazy" src="./images/personajes/Jett.webp" alt="Agente Jett" class="imagen">
+                <p class="under-image">ROLES: Duelista</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="60"></progress></label>
+                <p class="descripcion">Jett viene de Corea del Sur, y su estilo de lucha ágil y evasivo le permite asumir grandes riesgos. Corre y salta de aquí para allá en las refriegas y hace trizas a los enemigos con una rapidez espectacular.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qjett.webp" alt="Vendaval" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - VENDAVAL</p>
+                <p class="contenido-h">Propulsa INSTANTÁNEAMENTE a Jett a mucha altura hacia arriba.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/ejett.webp" alt="Viento de Cola" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - VIENTO DE COLA</p>
+                <p class="contenido-h">ACTIVA para preparar una ráfaga de viento durante un tiempo limitado. VUELVE A USAR el viento para propulsar a Jett en la dirección en la que se esté moviendo. Si Jett está quieta, se propulsa hacia delante.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/cjett.webp" alt="Borrasca" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - BORRASCA</p>
+                <p class="contenido-h">Lanza un proyectil INSTANTÁNEAMENTE que se expande para crear una nube que bloquea la visión brevemente al impactar contra una superficie. MANTENED PULSADO el botón de la habilidad para que el humo se curve en la dirección de la mira.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xjett.webp" alt="Tormenta de Cuchillas" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - TORMENTA DE CUCHILLAS</p>
+                <p class="contenido-h">EQUIPA un conjunto de cuchillos de alta precisión que se recargan cuando acaban con un oponente. DISPARAD para lanzar un único cuchillo a vuestro objetivo. ALTERNAD EL MODO DE DISPARO para lanzar todos los cuchillos que os queden a vuestro objetivo.</p></li>
+                </ul>
+            </div>
+            <div id="sage">
+                <h1>SAGE</h1>
+                <img loading="lazy" src="./images/personajes/Sage.webp" alt="Agente Sage" class="imagen">
+                <p class="under-image">ROLES: Centinela, Duelista</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="20"></progress></label>
+                <p class="descripcion">Originaria de China, Sage destaca a la hora de crear espacios seguros para su equipo allá donde va. Sus capacidades especiales para revivir a compañeros caídos en batalla y para mantener a raya los asaltos enemigos la convierten en la calma en mitad de la tormenta para su equipo.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qsage.webp" alt="Orbe de Ralentización" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - ORBE DE RALENTIZACIÓN</p>
+                <p class="contenido-h">EQUIPA un orbe de ralentización. DISPARAD para lanzar hacia adelante un orbe de ralentización que explota al aterrizar, lo que genera un campo persistente que ralentiza a los jugadores que se encuentren en su interior.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/esage.webp" alt="Orbe de Sanación" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - ORBE DE SANACIÓN</p>
+                <p class="contenido-h">EQUIPA un orbe de sanación. DISPARAD con la mira sobre un aliado herido para curarlo durante un breve periodo. ALTERNAD EL MODO DE DISPARO si Sage ha recibido daño para que se cure a sí misma durante un breve periodo.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/csage.webp" alt="Orbe Barrera" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - ORBE BARRERA</p>
+                <p class="contenido-h">EQUIPA un orbe barrera. DISPARAD para colocar una pared sólida. Alternad el MODO DE DISPARO para rotarla antes de crearla.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xsage.webp" alt="Resurrección" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - RESURECCION</p>
+                <p class="contenido-h">EQUIPA una habilidad de resurrección. DISPARAD con la mira sobre un aliado muerto para empezar a resucitarlo. Tras un breve periodo de canalización, el aliado resucitará con toda la vida.</p></li>
+                </ul>
+            </div>
+            <div id="sova">
+                <h1>SOVA</h1>
+                <img loading="lazy" src="./images/personajes/Sova.webp" alt="Agente Sova" class="imagen">
+                <p class="under-image">ROLES: Iniciador</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="20"></progress></label>
+                <p class="descripcion">Nacido en el eterno invierno de la tundra rusa, Sova destaca a la hora de localizar, perseguir y eliminar a los enemigos con una eficiencia y una precisión inclementes. Su arco personalizado junto con su sobrenatural capacidad de rastreamiento hacen que sea imposible escapar.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qsova.webp" alt="Flecha Explosiva" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - FLECHA EXPLOSIVA</p>
+                <p class="contenido-h">EQUIPA un arco con una flecha explosiva. DISPARAD para lanzar la flecha explosiva hacia delante. Explotará cuando impacte e infligirá daño a los enemigos cercanos. MANTENED PULSADO para ampliar su alcance. ALTERNAD EL MODO DE DISPARO para añadir hasta dos rebotes a la flecha.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/esova.webp" alt="Proyectil de Reconomiento" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - PROYECTIL DE RECONOCIMIENTO</p>
+                <p class="contenido-h">EQUIPA un arco con un proyectil de reconocimiento. DISPARAD para enviar el proyectil hacia delante. Se activará cuando impacte y revelará la posición de los enemigos que se encuentren en la línea de visión del proyectil. MANTENED PULSADO para ampliar su alcance. ALTERNAD EL MODO DE DISPARO para añadir hasta dos rebotes a la flecha.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/csova.webp" alt="Dron de Reconomiento" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - DRON DE RECONOCIMIENTO</p>
+                <p class="contenido-h">EQUIPA un dron de reconocimiento. DISPARAD para desplegar el dron y controlar su movimiento. Cuando tengáis control del dron, DISPARAD para lanzar un dardo marcador que revelará la ubicación de cualquier jugador alcanzado.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xsova.webp" alt="Furia del Cazador" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - FURIA DEL CAZADOR</p>
+                <p class="contenido-h">EQUIPA un arco con tres proyectiles de energía de largo alcance que atraviesan paredes. DISPARAD para lanzar un proyectil de energía en línea recta frente a Sova que infligirá daño y revelará la posición de los enemigos que se encuentren a su paso. Esta habilidad puede VOLVERSE A USAR hasta dos veces más mientras el temporizador de la habilidad esté activo.</p></li>
+                </ul>
+            </div>
+            <div id="kayo">
+                <h1>KAY/O</h1>
+                <img loading="lazy" src="./images/personajes/KAYO.webp" alt="Agente Kay/O" class="imagen">
+                <p class="under-image">ROLES: Iniciador, Duelista</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="60"></progress></label>
+                <p class="descripcion">KAY/O es una máquina de guerra creada con un solo propósito: neutralizar radiantes. Su poder para suprimir las habilidades enemigas neutraliza la capacidad de sus rivales para contraatacar, un aspecto que le da a él y a sus aliados la ventaja definitiva en la batalla.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qkayo.webp" alt="Unidad/Flash" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - UNIDAD / FLASH</p>
+                <p class="contenido-h">EQUIPA una granada cegadora. DISPARA para lanzarla. La granada cegadora explota después de un breve periodo de tiempo y ciega a todos en la línea de visión.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/ekayo.webp" alt="Punto/Cero" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - PUNTO / CERO</p>
+                <p class="contenido-h">EQUIPA una cuchilla de supresión. DISPARA para lanzarla. La cuchilla se pega contra la primera superficie que toca, luego explota y suprime a cualquier oponente que se encuentre en el radio de la explosión.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/ckayo.webp" alt="Frag/Mento" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - FRAG / MENTO</p>
+                <p class="contenido-h">EQUIPA un fragmento explosivo. DISPARA para lanzarlo. El fragmento se pega al suelo y explota varias veces, lo que inflige daño casi mortal en el centro con cada explosión.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xkayo.webp" alt="CMD/Anular" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - CMD / ANULAR</p>
+                <p class="contenido-h">Se sobrecarga AL INSTANTE con energía de radianita polarizada que le da poder a KAY/O y causa que grandes pulsos de energía emanen desde su ubicación. Los enemigos impactados por dichos pulsos quedan suprimidos durante un breve momento.</p></li>
+                </ul>
+            </div>
+            <div id="killjoy">
+                <h1>KILLJOY</h1>
+                <img loading="lazy" src="./images/personajes/KillJoy.webp" alt="Agente Killjoy" class="imagen">
+                <p class="under-image">ROLES: Centinela</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="30"></progress></label>
+                <p class="descripcion">Killjoy es una brillante agente alemana que se encarga de tomar el campo de batalla con un amplio arsenal de inventos. Si el daño de sus invenciones no detiene a los enemigos, la debilitación de sus robots los convertirá en presas fáciles.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qkill.webp" alt="Bot de Alarma" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - BOT DE ALARMA</p>
+                <p class="contenido-h">EQUIPA un bot de alarma camuflado. DISPARA para desplegar un bot que dará caza a los enemigos que estén dentro del alcance. Tras alcanzar su objetivo, el bot explota y aplica vulnerabilidad. MANTÉN PULSADO EQUIPAR para recoger un bot desplegado.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/ekill.webp" alt="Torreta" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - TORRETA</p>
+                <p class="contenido-h">EQUIPA una torreta. DISPARA para desplegar una torreta que dispara a los enemigos en un cono de 180 grados. MANTÉN PULSADO EQUIPAR para recoger la torreta desplegada.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/ckill.webp" alt="Nanoenjambre" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - NANOENJAMBRE</p>
+                <p class="contenido-h">EQUIPA una granada de nanoenjambre. DISPARA para lanzar la granada. Cuando aterriza, la granada enjambre se camufla. ACTIVA el nanoenjambre para desplegar un enjambre de nanobots.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xkill.webp" alt="Bloqueo" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - BLOQUEO</p>
+                <p class="contenido-h">EQUIPA el dispositivo de bloqueo. DISPARA para desplegar el dispositivo. Tras un largo periodo de carga, el dispositivo detiene a todos los enemigos que estén dentro del radio de efecto. Los enemigos pueden destruir el dispositivo.</p></li>
+                </ul>
+            </div>
+            <div id="neon">
+                <h1>NEON</h1>
+                <img loading="lazy" src="./images/personajes/Neon.webp" alt="Agente Neon" class="imagen">
+                <p class="under-image">ROLES: Duelista</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="70"></progress></label>
+                <p class="descripcion">Neon, una agente filipina, se lanza hacia la batalla a una velocidad trepidante, disparando descargas bioeléctricas tan rápido como las genera su cuerpo. Se adelanta para pillar a sus enemigos desprevenidos y acaba con ellos más rápido que una bala.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qneon.webp" alt="Explosión de Relé" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - EXPLOSIÓN DE RELÉ</p>
+                <p class="contenido-h">Lanza INSTANTÁNEAMENTE un rayo de energía que rebota una vez. Al golpear cada superficie, el rayo electrifica el suelo bajo ella con una explosión aturdidora.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/eneon.webp" alt="A toda máquina" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - A TODA MÁQUINA</p>
+                <p class="contenido-h">Canaliza INSTANTÁNEAMENTE el poder de Neon para aumentar su velocidad. Cuando esté cargada, utilizad el DISPARO ALTERNATIVO para activar un deslizador eléctrico. La carga del deslizador se reinicia con cada dos asesinatos.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/cneon.webp" alt="Carril Rápido" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - CARRIL RÁPIDO</p>
+                <p class="contenido-h">DISPARA dos líneas de energía hacia delante por el suelo. Dichas líneas se desplazan una corta distancia o hasta chocar contra algún obstáculo. Entonces, las líneas se alzan para convertirse en muros de energía estática que bloquean la visión e infligen daño a los enemigos que los atraviesan.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xneon.webp" alt="Sobrecarga" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - SOBRECARGA</p>
+                <p class="contenido-h">Neon desata todo su poder y velocidad durante un breve periodo de tiempo. DISPARAD para canalizar su poder en un mortífero rayo móvil y preciso. Su duración se reinicia con cada asesinato.</p></li>
+                </ul>
+            </div>
+            <div id="omen">
+                <h1>OMEN</h1>
+                <img loading="lazy" src="./images/personajes/Omen.webp" alt="Agente Omen" class="imagen">
+                <p class="under-image">ROLES: Controlador, Duelista</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="40"></progress></label>
+                <p class="descripcion">Omen es un fantasma de tiempos pasados que acecha en las sombras. Es capaz de cegar al enemigo, teleportarse a través del campo de batalla y sembrar el caos y la paranoia mientras sus rivales se preguntan dónde atacará la próxima vez.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qomen.webp" alt="Paranoia" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - PARANOIA</p>
+                <p class="contenido-h">Dispara INSTANTÁNEAMENTE un proyectil sombrío hacia delante que reduce brevemente el alcance de la visión de todos los jugadores que toca. El proyectil puede atravesar paredes.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/eomen.webp" alt="Velo Tenebroso" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - VELO TENEBROSO</p>
+                <p class="contenido-h">EQUIPA un orbe sombrío y muestra su indicador de alcance. DISPARAD para lanzar el orbe sombrío a la ubicación señalada, lo que genera una esfera sombría de larga duración que bloquea la visión. MANTENED PULSADO EL MODO DE DISPARO ALTERNATIVO al apuntar para que el marcador se aleje más. MANTENED PULSADA la tecla de la habilidad para que el marcado se acerque más.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/comen.webp" alt="Aparición Tenebrosa" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - APARICIÓN TENEBROSA</p>
+                <p class="contenido-h">EQUIPA una habilidad para caminar entre las sombras y muestra su indicador de alcance. DISPARAD para iniciar un breve periodo de canalización y después teleportaros a la ubicación señalada.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xomen.webp" alt="Desde las Sombras" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - DESDE LAS SOMBRAS</p>
+                <p class="contenido-h">EQUIPA un mapa táctico. DISPARAD para empezar a teleportaros a la ubicación seleccionada. Mientras se teleporta, Omen aparecerá como una sombra que los enemigos pueden destruir para cancelar su teleportación.</p></li>
+                </ul>
+            </div>
+            <div id="phoenix">
+                <h1>PHOENIX</h1>
+                <img loading="lazy" src="./images/personajes/Phx.webp" alt="Agente Phoenix" class="imagen">
+                <p class="under-image">ROLES: Duelista</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="20"></progress></label>
+                <p class="descripcion">Phoenix proviene del Reino Unido y sus poderes estelares salen a relucir con su estilo de combate, que prende fuego al campo de batalla de forma deslumbrante. No le hacen falta refuerzos; es él quién se lanza al combate y marca el ritmo.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qphx.webp" alt="Bola Curva" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - BOLA CURVA</p>
+                <p class="contenido-h">EQUIPA un orbe fulgurante que dibuja una trayectoria curva y explota poco después de haberlo lanzado. DISPARAD para lanzar el orbe fulgurante hacia la izquierda, lo que hará que detone y ciegue a cualquier jugador que lo vea. ALTERNAD EL MODO DE DISPARO para lanzar el orbe fulgurante hacia la derecha.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/ephx.webp" alt="Combustión" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - COMBUSTIÓN</p>
+                <p class="contenido-h">EQUIPA una bola de fuego. DISPARAD para lanzar una bola de fuego que explota transcurrido un tiempo determinado o al impactar contra el suelo, lo que crea una zona de fuego persistente que inflige daño a los enemigos.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/cphx.webp" alt="LLamarada" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - LLAMARADA</p>
+                <p class="contenido-h">EQUIPA una pared de llamas. DISPARAD para crear una línea de llamas que avanza hacia adelante, lo que forma una pared de fuego que bloquea la visión e inflige daño a los jugadores enemigos que la atraviesen. MANTENED PULSADO DISPARAR para curvar la pared en la dirección de la mira.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xphx.webp" alt="Cenizas" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - CENIZAS</p>
+                <p class="contenido-h">Coloca INSTANTANEAMENTE un marcador en la ubicación de Phoenix. Mientras esta habilidad esté activa, morir o dejar que se agote el temporizador hará que se termine la habilidad y devolverá a Phoenix a esta ubicación con toda la vida.</p></li>
+                </ul>
+            </div>
+            <div id="raze">
+                <h1>RAZE</h1>
+                <img loading="lazy" src="./images/personajes/Raze.webp" alt="Agente Raze" class="imagen">
+                <p class="under-image">ROLES: Duelista</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="50"></progress></label>
+                <p class="descripcion">Raze llega desde Brasil con ganas de hacer que todo salte por los aires. Gracias a su estilo de juego basado en la fuerza bruta, destaca a la hora de barrer a grupos de enemigos atrincherados y de despejar áreas estrechas con explosión y sin compasión.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qraze.webp" alt="Fardo Explosivo" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - FARDO EXPLOSIVO</p>
+                <p class="contenido-h">Lanza AL INSTANTE un fardo explosivo que se adhiere a las superficies. VOLVED A USAR la habilidad después de que el fardo se adhiera para detonarlo y que dañe y desplace a todo aquello que alcance. Esta habilidad no inflige daño a Raze, pero sí que recibirá daño por caída si salta lo suficientemente alto.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/eraze.webp" alt="Balas de Pintura" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - BALAS DE PINTURA</p>
+                <p class="contenido-h">EQUIPA una granada de racimo. DISPARAD para lanzar la granada, lo que causa daño y crea submuniciones que infligen daño a cualquiera que esté dentro del rango.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/craze.webp" alt="Bot Explosivo" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - BOT EXPLOSIVO</p>
+                <p class="contenido-h">EQUIPA un bot explosivo. DISPARAD para desplegar el bot y hacer que se desplace en línea recta por el terreno, rebotando por las paredes. El bot explosivo se fijará a los enemigos que encuentre en un cono frontal y los perseguirá. Si los alcanza, explotará e infligirá una gran cantidad de daño.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xraze.webp" alt="Cierratelones" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - CIERRATELONES</p>
+                <p class="contenido-h">EQUIPA un lanzacohetes. DISPARAD para lanzar un cohete que inflige un daño en área masivo al entrar en contacto con cualquier cosa.</p></li>
+                </ul>
+            </div>
+            <div id="reyna">
+                <h1>REYNA</h1>
+                <img loading="lazy" src="./images/personajes/Reyna.webp" alt="Agente Reyna" class="imagen">
+                <p class="under-image">ROLES: Duelista</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="50"></progress></label>
+                <p class="descripcion">Desde el corazón de México, Reyna llega para dominar los combates uno contra uno y cada asesinato que consigue la hace más fuerte. Su potencial es prácticamente infinito, y la destreza individual es el único factor determinante de su éxito.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qreyna.webp" alt="Devorar" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - DEVORAR</p>
+                <p class="contenido-h">Los enemigos asesinados por Reyna dejan tras de sí orbes de alma que duran 3 segundos. Consume INSTANTÁNEAMENTE un orbe de alma cercano y se cura durante un breve periodo. Si se obtienen más de 100 puntos de vida con esta habilidad, la cantidad adicional se irá perdiendo con el tiempo. Si EMPERATRIZ está activa, esta habilidad se lanzará de forma automática y no consumirá el orbe.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/ereyna.webp" alt="Despreciar" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - DESPRECIAR</p>
+                <p class="contenido-h">Consume INSTANTÁNEAMENTE un orbe de alma cercano y se vuelve intangible durante un breve periodo. Si EMPERATRIZ está activa, se vuelve invisible también.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/creyna.webp" alt="Mirada Lasciva" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - MIRADA LASCIVA</p>
+                <p class="contenido-h">EQUIPA un ojo etéreo e indestructible. ACTIVADLA para lanzar el ojo hacia delante una corta distancia. El ojo limitará la visión de todos los enemigos que lo miren.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xreyna.webp" alt="Emperatriz" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - EMPERATRIZ</p>
+                <p class="contenido-h">Entra en un frenesí INSTANTÁNEO que aumenta drásticamente la velocidad de disparo, de equipamiento y de recarga. Conseguir un asesinato reinicia la duración.</p></li>
+                </ul>
+            </div>
+            <div id="skye">
+                <h1>SKYE</h1>
+                <img loading="lazy" src="./images/personajes/Skye.webp" alt="Agente Skye" class="imagen">
+                <p class="under-image">ROLES: Iniciador, Duelista</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="60"></progress></label>
+                <p class="descripcion">Skye y su manada de bestias se abren paso desde Australia y a través de territorio hostil. Sus creaciones obstaculizan los avances enemigos y su capacidad para curar a los demás se ocupa de que, a su lado, su equipo esté a salvo.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qkye.webp" alt="Precursor" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - PRECURSOR</p>
+                <p class="contenido-h">EQUIPA un amuleto de lobo marsupial. DISPARA para desplegar al depredador y controlarlo. Mientras se está controlando al lobo, DISPARAR hace que salte hacia delante y explote, lo que aturde e inflige daño a los enemigos que golpee.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/ekye.webp" alt="Luz Guia" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - LUZ GUIA</p>
+                <p class="contenido-h">EQUIPA un amuleto de halcón. DISPARA para lanzarlo hacia adelante. MANTENER PULSADO DISPARAR guía al halcón en la dirección de la mira. VOLVER A ACTIVAR la habilidad cuando el halcón está en el aire lo transforma en un destello cegador que emite un sonido de confirmación de impacto si ha cegado a un enemigo.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/ckye.webp" alt="Reforestación" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - REFORESTACIÓN</p>
+                <p class="contenido-h">EQUIPA un amuleto de curación. MANTENER PULSADO canaliza la habilidad, que cura a los aliados que estén dentro del alcance y del campo de visión. Se puede volver a utilizar hasta que se quede sin curación disponible. Skye no se puede curar a sí misma.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xkye.webp" alt="Buscadores" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - BUSCADORES</p>
+                <p class="contenido-h">EQUIPA un amuleto de buscador. DISPARA para desplegar tres buscadores que localizan a los tres enemigos más cercanos. Si un buscador alcanza a su objetivo, limita su visión.</p></li>
+                </ul>
+            </div>
+            <div id="viper">
+                <h1>VIPER</h1>
+                <img loading="lazy" src="./images/personajes/Viper.webp" alt="Agente Viper" class="imagen">
+                <p class="under-image">ROLES: Controlador, Centinela</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="40"></progress></label>
+                <p class="descripcion">Viper es una química estadounidense con un amplio arsenal de dispositivos venenosos que le sirven para tomar el control del campo de batalla y cegar a los enemigos. Si las toxinas no acaban con su presa, la paranoia la rematará.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qviper.webp" alt="Nube Venenosa" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - NUBE VENENOSA</p>
+                <p class="contenido-h">EQUIPA una granada de gas. DISPARAD para lanzar la granada, que permanecerá toda la ronda. VOLVED A USAR la habilidad para generar una nube de gas tóxico a cambio de combustible. La granada se puede VOLVER A USAR más de una vez y se puede recoger para VOLVER A COLOCARLA.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/eviper.webp" alt="Pantalla Tóxica" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - PANTALLA TÓXICA</p>
+                <p class="contenido-h">EQUIPA un lanzagranadas de gas. DISPARAD para desplegar una larga hilera de granadas de gas que se pueden reactivar para crear un alto muro de gas tóxico a cambio de combustible. Se puede VOLVER A USAR más de una vez.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/cviper.webp" alt="Veneno de Serpiente" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - VENENO DE SERPIENTE</p>
+                <p class="contenido-h">EQUIPA un lanzador químico. DISPARAD para lanzar un cartucho que se rompe al impactar contra el suelo, lo que genera una zona química persistente que daña a los enemigos.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xviper.webp" alt="Pozo de la Víbora" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - POZO DE LA VIBORA</p>
+                <p class="contenido-h">EQUIPA un pulverizador químico. DISPARAD para pulverizar una nube química en todas direcciones alrededor de Viper, lo que genera una gran nube que reduce el alcance de la visión y la vida máxima de los jugadores que se encuentren dentro de ella.</p></li>
+                </ul>
+            </div>
+            <div id="yoru">
+                <h1>YORU</h1>
+                <img loading="lazy" src="./images/personajes/Yoru.webp" alt="Agente Yoru" class="imagen">
+                <p class="under-image">ROLES: Duelista, Iniciador</p>
+                <label for="dificultad">DIFICULTAD:&nbsp;&nbsp;<progress id="dificultad" max="100" value="70"></progress></label>
+                <p class="descripcion">Yoru, nacido en Japón, abre agujeros en el tejido de la realidad para infiltrarse tras las líneas enemigas sin ser visto. Utiliza el engaño y la agresividad por igual para acabar con sus objetivos antes de que sepan qué ha pasado.</p>
+                <ul>
+                <li><a href="#" class="habilidad-1"><img loading="lazy" src="./images/habilidades/qyoru.webp" alt="Punto Ciego" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">Q - PUNTO CIEGO</p>
+                <p class="contenido-h">EQUIPA para arrancar un fragmento dimensional inestable de la realidad. DISPARA para lanzar el fragmento, lo que activa un destello que se carga al impactar contra una superficie sólida.</p></li>
+                <li><a href="#" class="habilidad-2"><img loading="lazy" src="./images/habilidades/eyoru.webp" alt="Infiltración" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">E - INFILTRACIÓN</p>
+                <p class="contenido-h">EQUIPA un vínculo de grietas. DISPARA para lanzarlo hacia delante. ALTERNA el modo de disparo para colocarlo en el sitio. ACTIVA para teleportarte a la ubicación del vínculo. USA para activar un teleportar falso.</p></li>
+                <li><a href="#" class="habilidad-3"><img loading="lazy" src="./images/habilidades/cyoru.webp" alt="Engaño" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">C - ENGAÑO</p>
+                <p class="contenido-h">EQUIPA un eco que se transforma en una imagen idéntica de Yoru al activarse. DISPARA para activar la imagen al instante y enviarla hacia delante. ALTERNA el modo de disparo para colocar un eco inactivo. USA para transformar un eco inactivo en una imagen y enviarla hacia delante. Las imágenes explotan con un destello al ser destruidas por enemigos.</p></li>
+                <li><a href="#" class="habilidad-4"><img loading="lazy" src="./images/habilidades/xyoru.webp" alt="Viaje Interdimensional" width="50" height="50" class="icono"></a>
+                <p class="titulo-h">X - VIAJE INTERDIMENSIONAL</p>
+                <p class="contenido-h">EQUIPA una máscara que te permite ver entre dimensiones. DISPARA para adentrarte en la dimensión de Yoru. Los enemigos que estén fuera no podrán verte ni hacerte daño.</p></li>
+                </ul>
+            </div>
+        </main>
+        <footer id="ccimages">Xemplorant &copy; Todos los derechos reservados 2023-2024</footer>
+        <script src="./java/boton.js"></script>
+        <script src="./java/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,767 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./css/armas.css" />
+        <link rel="icon" type="image/x-icon" href="./images/logo.webp">
+        <title>Xemplorant - Todo el contenido relacionado con Valorant</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="./armas.html">
+                    <img loading="lazy" src="./images/logo.webp" width="360" height="360" alt="Logo de la Pagina" class="logo">
+                </a>
+                <ul class="enlaces-menu">
+                    <li class="links-menu"><a href="./index.html" class="enlaces">INICIO</a></li>
+                    <li class="links-menu"><a href="./personajes.html" class="enlaces">PERSONAJES</a></li>
+                    <li class="links-menu"><a href="./mapasups.html" class="enlaces">MAPAS</a></li>
+                    <li class="links-menu-1"><a href="./armas.html" class="enlaces">ARMAS</a></li>
+                    <li class="links-menu"><a href="./formulario.html" class="enlaces">FORMULARIO</a></li>
+                </ul>
+                <button class="ham" type="button">
+                    <span class="br-1"></span>
+                    <span class="br-2"></span>
+                    <span class="br-3"></span>
+                </button>
+            </nav>
+        </header>
+        <main>
+            <div id="contenido-arm">
+                    <p id="contenido">En la siguiente sección podras obtener información sobre las armas que hay en el juego
+                        para comprobar las características de cada una de ellas. Puedes obtener mas información clickando sobre
+                        las imagenes: 
+                    </p>
+                    <div class="armas">
+                    <div class="f1">
+                        <div class="columna texto-medio classic general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a id="lclassic" onclick=mostrarArmas(); href="#" title="Classic"><img loading="lazy" src="./images/armas/classic.webp" alt="Classic"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lclassic">Classic</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio shorty general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a title="Shorty" id="lshorty" onclick=mostrarArmas(); href="#"><img loading="lazy" src="./images/armas/shorty.webp" alt="Shorty"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lshorty">Shorty</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio frenzy general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a title="Frenzy" id="lfrenzy" onclick=mostrarArmas(); href="#"><img loading="lazy" src="./images/armas/frenzy.webp" alt="Frenzy"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lfrenzy">Frenzy</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f2">
+                        <div class="columna texto-medio ghost general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Ghost" id="lghost" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/ghost.webp" alt="Ghost"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lghost">Ghost</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio sheriff general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Sheriff" id="lsheriff" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/sheriff.webp" alt="Sheriff"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lsheriff">Sheriff</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio stinger general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Stinger" id="lstinger" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/stinger.webp" alt="Stinger"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lstinger">Stinger</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <div class="columna texto-medio spectre general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Spectre" id="lspectre" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/spectre.webp" alt="Spectre"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lspectre">Spectre</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio bucky general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Bucky" id="lbucky" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/bucky.webp" alt="Bucky"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lbucky">Bucky</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio judge general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Judge" id="ljudge" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/judge.webp" alt="Judge"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="ljudge">Judge</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f4">
+                        <div class="columna texto-medio bulldog general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Bulldog" id="lbulldog" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/bulldog.webp" alt="Bulldog"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lbulldog">Bulldog</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio guardian general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Guardian" id="lguardian" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/guardian.webp" alt="Guardian"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lguardian">Guardian</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio phantom general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Phantom" id="lphantom" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/phantom.webp" alt="Phantom"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lphantom">Phantom</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f5">
+                        <div class="columna texto-medio vandal general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Vandal" id="lvandal" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/vandal.webp" alt="Vandal"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lvandal">Vandal</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio marshal general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Marshal" id="lmarshal" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/marshal.webp" alt="Marshal"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lmarshal">Marshal</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio operator general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Operator" id="loperator" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/operator.webp" alt="Operator"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="loperator">Operator</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f6">
+                        <div class="columna texto-medio ares general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Ares" id="lares" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/ares.webp" alt="Ares"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lares">Ares</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio odin general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Odin" id="lodin" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/odin.webp" alt="Odin"></a>
+                                </div>
+                                <div class="texto-d">
+                                    <h3><a id="lodin">Odin</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columna texto-medio knife general">
+                            <div class="content-c">
+                                <div class="content-d">
+                                    <a href="#" title="Cuerpo a Cuerpo" id="lcac" onclick=mostrarArmas();><img loading="lazy" src="./images/armas/cuerpo-a-cuerpo.webp" alt="Cuerpo a Cuerpo"></a>
+                                </div>
+                                    <div class="texto-d">
+                                        <h3><a id="lcac">Cuerpo a Cuerpo</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="classic">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>CLASSIC</h1>
+                <img loading="lazy" src="./images/armas/classic.webp" alt="Classic" title="Classic" class="imagen-arma-c">
+                <div class="stats">
+                    <h2>Estadisticas: </h2>
+                    <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 78 en los 30 metros<br>
+                        <span class="minititulos">Daño por Segundo</span> - &nbsp;&nbsp;527 Cabeza<br>
+                        <p class="daño">&nbsp;176 Cuerpo<br>
+                                        149 Piernas<br></p>
+                        <p class="estadisticas">
+                        <span class="minititulos">Equipacion</span> - 0.75 seg<br>
+                        <span class="minititulos">Recarga</span> - 1.75 seg<br>
+                        <span class="minititulos">Cargador</span> - 12 Balas<br>
+                        <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                        <span class="minititulos">Balas Totales</span> - 48<br>
+                        <span class="minititulos">Velocidad Corriendo</span> - 5.73 m/s<br>
+                        <span class="minititulos">Velocidad Andando</span> - 3.43 m/s<br>
+                        </p>
+                    </p>
+                    <h2>Mapa de Daño: </h2>
+                    <table>
+                        <tr><td></td><td>0-30</td><td>30-50</td></tr>
+                        <tr><td>Cabeza</td><td>78</td><td>66</td></tr>
+                        <tr><td>Cuerpo</td><td>26</td><td>22</td></tr>
+                        <tr><td>Piernas</td><td>22</td><td>18</td></tr>
+                    </table>
+                </div>
+                <p class="info">La Classic es un arma ligera y versatil, el arma por defecto ya que te dan una al empezar las rondas. El modo de disparo principal es preciso si no se está en movimiento, y también dispone de un modo de disparo en ráfaga para los encuentros cuerpo a cuerpo.</p>
+            </div>
+            <div id="shorty">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>SHORTY</h1>
+                <img loading="lazy" src="./images/armas/shorty.webp" alt="Shorty" title="Shorty" class="imagen-arma-c">
+                <div class="stats">
+                    <h2>Estadisticas: </h2>
+                    <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 360 en los 7 metros<br>
+                       <span class="minititulos">Daño por Segundo</span> - 1.199 Cabeza<br>
+                        <p class="daño">599 Cuerpo<br>
+                        &nbsp;&nbsp;500 Piernas<br></p>
+                        <p class="estadisticas">
+                        <span class="minititulos">Equipacion</span> - 0.75 seg<br>
+                        <span class="minititulos">Recarga</span> - 1.75 seg<br>
+                        <span class="minititulos">Cargador</span> - 2 Balas<br>
+                        <span class="minititulos">Cargadores Totales</span> - 6<br> 
+                        <span class="minititulos">Balas Totales</span> - 12<br>
+                        <span class="minititulos">Velocidad Corriendo</span> - 5.40 m/s<br>
+                        <span class="minititulos">Velocidad Andando</span> - 3.23 m/s<br>
+                        </p>
+                    </p>
+                    <h2>Mapa de Daño (Perdigones): </h2>
+                    <table>
+                        <tr><td></td><td>0-7</td><td>7-15</td><td>15-50</td></tr>
+                        <tr><td>Cabeza</td><td>24</td><td>16</td><td>6</td></tr>
+                        <tr><td>Cuerpo</td><td>12</td><td>8</td><td>3</td></tr>
+                        <tr><td>Piernas</td><td>10</td><td>6</td><td>2</td></tr>
+                    </table>
+                </div>
+                <p class="info">Se trata de una escopeta ligera de barril corto que resulta letal cuerpo a cuerpo pero solo puede dispararse dos veces antes de tener que recargarla. Complementa de maravilla a las armas de larga distancia.</p>
+                </div>
+            <div id="frenzy">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>FRENZY</h1>
+                <img loading="lazy" src="./images/armas/frenzy.webp" alt="Frenzy" title="Frenzy" class="imagen-arma-c">
+                <div class="stats">
+                    <h2>Estadisticas: </h2>
+                    <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 78 en los 20 metros<br>
+                       <span class="minititulos">Daño por Segundo</span> - 780 Cabeza<br>
+                                          <p class="daño">260 Cuerpo<br>
+                                          220 Piernas<br></p>
+                        <p class="estadisticas">
+                        <span class="minititulos">Equipacion</span> - 1 seg<br>
+                        <span class="minititulos">Recarga</span> - 1.5 seg<br>
+                        <span class="minititulos">Cargador</span> - 13 Balas<br>
+                        <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                        <span class="minititulos">Balas Totales</span> - 52<br>
+                        <span class="minititulos">Velocidad Corriendo</span> - 5.73 m/s<br>
+                        <span class="minititulos">Velocidad Andando</span> - 3.43 m/s<br>
+                        </p>
+                    </p>
+                    <h2>Mapa de Daño: </h2>
+                    <table>
+                        <tr><td></td><td>0-20</td><td>20-50</td></tr>
+                        <tr><td>Cabeza</td><td>78</td><td>63</td></tr>
+                        <tr><td>Cuerpo</td><td>26</td><td>21</td></tr>
+                        <tr><td>Piernas</td><td>22</td><td>17</td></tr>
+                    </table>
+                </div>
+                <p class="info">Se trata de una pistola ametralladora ligera que destaca a la hora de disparar en movimiento. Tiene una velocidad de disparo muy alta, pero es difícil de controlar, así que a media distancia es mejor apostar por ráfagas cortas.</p>
+            </div>
+            <div id="ghost">
+            <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+            <h1>GHOST</h1>
+            <img loading="lazy" src="./images/armas/ghost.webp" alt="Ghost" title="Ghost" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 105 en los 30 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 709 Cabeza<br>
+                                      <p class="daño">203 Cuerpo<br>
+                                      163 Piernas<br></p>
+                                      <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 0.75 seg<br>
+                    <span class="minititulos">Recarga</span> - 1.50 seg<br>
+                    <span class="minititulos">Cargador</span> - 15 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                    <span class="minititulos">Balas Totales</span> - 60<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.73 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.43 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-30</td><td>30-50</td></tr>
+                    <tr><td>Cabeza</td><td>105</td><td>87</td></tr>
+                    <tr><td>Cuerpo</td><td>30</td><td>25</td></tr>
+                    <tr><td>Piernas</td><td>25</td><td>21</td></tr>
+                </table>
+            </div>
+            <p class="info">La Ghost cuenta también con un amplio cargador por si lo necesitáis. Si el objetivo está lejos, tendréis que controlar la velocidad de disparo. Pulsad el gatillo con rapidez cuando los tengáis cerca.</p>
+            </div>
+            <div id="sheriff">
+            <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+            <h1>SHERIFF</h1>
+            <img loading="lazy" src="./images/armas/sheriff.webp" alt="Sheriff" title="Sheriff" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 159 en los 30 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 636 Cabeza<br>
+                                      <p class="daño">220 Cuerpo<br>
+                                      184 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.00 seg<br>
+                    <span class="minititulos">Recarga</span> - 2.25 seg<br>
+                    <span class="minititulos">Cargador</span> - 6 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                    <span class="minititulos">Balas Totales</span> - 30<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.40 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.23 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-30</td><td>30-50</td></tr>
+                    <tr><td>Cabeza</td><td>159</td><td>145</td></tr>
+                    <tr><td>Cuerpo</td><td>55</td><td>50</td></tr>
+                    <tr><td>Piernas</td><td>46</td><td>42</td></tr>
+                </table>
+            </div>
+            <p class="info">Sus poderosos disparos causan un retroceso pronunciado y dominar esta arma requiere dedicación. Si la empuñás con precisión, tus enemigos correrán al verte.</p>
+            </div>
+            <div id="stinger">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>STINGER</h1>
+            <img loading="lazy" src="./images/armas/stinger.webp" alt="Stinger" title="Stinger" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 67 en los 20 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 1.206 Cabeza<br>
+                                      <p class="daño">486 Cuerpo<br>
+                                      414 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 0.75 seg<br>
+                    <span class="minititulos">Recarga</span> - 2.25 seg<br>
+                    <span class="minititulos">Cargador</span> - 20 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                    <span class="minititulos">Balas Totales</span> - 80<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.73 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.43 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-20</td><td>20-50</td></tr>
+                    <tr><td>Cabeza</td><td>67</td><td>62</td></tr>
+                    <tr><td>Cuerpo</td><td>27</td><td>25</td></tr>
+                    <tr><td>Piernas</td><td>23</td><td>21</td></tr>
+                </table>
+            </div>
+            <p class="info">Este subfusil es más potente a media y larga distancia que el resto, pero para ello sacrifica parte de su velocidad de disparo y movilidad. El cargador de 20 balas puede vaciarse en un abrir y cerrar de ojos si os dejáis llevar por el retroceso, pero también os permitirá acertar disparos letales a distancias medias con la ayuda de la mira y un disparo controlado.</p>
+            </div>
+            <div id="spectre">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>SPECTRE</h1>
+            <img loading="lazy" src="./images/armas/spectre.webp" alt="Spectre" title="Spectre" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 78 en los 20 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 1.040 Cabeza<br>
+                                      <p class="daño">347 Cuerpo<br>
+                                      293 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 0.75 seg<br>
+                    <span class="minititulos">Recarga</span> - 2.25 seg<br>
+                    <span class="minititulos">Cargador</span> - 30 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                    <span class="minititulos">Balas Totales</span> - 120<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.73 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.43 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-20</td><td>20-50</td></tr>
+                    <tr><td>Cabeza</td><td>78</td><td>66</td></tr>
+                    <tr><td>Cuerpo</td><td>26</td><td>22</td></tr>
+                    <tr><td>Piernas</td><td>22</td><td>18</td></tr>
+                </table>
+            </div>
+            <p class="info">Es un arma todoterreno con estadísticas de daño, velocidad de disparo y precisión muy equilibradas tanto a distancias cortas como medias. Acecha en las esquinas de todos los mapas y, si tenéis buen pulso, os permitirá acabar con vuestros enemigos desde lejos.</p>
+            </div>
+            <div id="bucky">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>BUCKY</h1>
+            <img loading="lazy" src="./images/armas/bucky.webp" alt="Bucky" title="Bucky" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 660 en los 8 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 726 Cabeza<br>
+                                      <p class="daño">363 Cuerpo<br>
+                                      314 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.00 seg<br>
+                    <span class="minititulos">Recarga</span> - 2.50 seg<br>
+                    <span class="minititulos">Cargador</span> - 5 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 3<br> 
+                    <span class="minititulos">Balas Totales</span> - 15<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.06 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.02 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño (Perdigones): </h2>
+                <table>
+                    <tr><td></td><td>0-8</td><td>8-12</td><td>12-50</td></tr>
+                    <tr><td>Cabeza</td><td>44</td><td>34</td><td>18</td></tr>
+                    <tr><td>Cuerpo</td><td>22</td><td>17</td><td>9</td></tr>
+                    <tr><td>Piernas</td><td>19</td><td>14</td><td>8</td></tr>
+                </table>
+            </div>
+            <p class="info">Pesada pero estable, el modo de disparo principal de la Bucky ayuda a vigilar esquinas en espacios reducidos y resulta ideal para cargar contra los enemigos cuerpo contra cuerpo. El modo de disparo alternativo es preciso a media distancia.</p>
+            </div>
+            <div id="judge">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>JUDGE</h1>
+            <img loading="lazy" src="./images/armas/judge.webp" alt="Judge" title="Judge" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 408 en los 10 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 1.428 Cabeza<br>
+                                      <p class="daño">714 Cuerpo<br>
+                                      588 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.00 seg<br>
+                    <span class="minititulos">Recarga</span> - 2.20 seg<br>
+                    <span class="minititulos">Cargador</span> - 7 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                    <span class="minititulos">Balas Totales</span> - 28<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.06 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.02 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño (Perdigones): </h2>
+                <table>
+                    <tr><td></td><td>0-10</td><td>10-15</td><td>15-50</td></tr>
+                    <tr><td>Cabeza</td><td>34</td><td>26</td><td>20</td></tr>
+                    <tr><td>Cuerpo</td><td>17</td><td>13</td><td>10</td></tr>
+                    <tr><td>Piernas</td><td>14</td><td>11</td><td>9</td></tr>
+                </table>
+            </div>
+            <p class="info">La Judge es un arma estable, pero se vuelve volátil si se dispara con mucha rapidez. El modo de disparo principal es perfecto para las distancias cortas; si queréis acertar a objetivos a más de un metro de distancia, tendréis que apuntar con calma y precisión.</p>
+            </div>
+            <div id="bulldog">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>BULLDOG</h1>
+            <img loading="lazy" src="./images/armas/bulldog.webp" alt="Bulldog" title="Bulldog" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 116 en los 50 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 1.060 Cabeza<br>
+                                      <p class="daño">320 Cuerpo<br>
+                                      274 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.00 seg<br>
+                    <span class="minititulos">Recarga</span> - 2.50 seg<br>
+                    <span class="minititulos">Cargador</span> - 24 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                    <span class="minititulos">Balas Totales</span> - 96<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.40 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.23 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-50</td></tr>
+                    <tr><td>Cabeza</td><td>116</td></tr>
+                    <tr><td>Cuerpo</td><td>35</td></tr>
+                    <tr><td>Piernas</td><td>30</td></tr>
+                </table>
+            </div>
+            <p class="info">Una vez que aprendéis a decidir cuándo disparar, se trata de una apuesta segura. El modo alternativo dispone de una mira que os permite disparar ráfagas cortas con precisión a media y larga distancia.</p>
+            </div>
+            <div id="guardian">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>GUARDIAN</h1>
+            <img loading="lazy" src="./images/armas/guardian.webp" alt="Guardian" title="Guardian" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 195 en los 50 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 1.024 Cabeza<br>
+                                      <p class="daño">341 Cuerpo<br>
+                                      257 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.00 seg<br>
+                    <span class="minititulos">Recarga</span> - 2.50 seg<br>
+                    <span class="minititulos">Cargador</span> - 12 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                    <span class="minititulos">Balas Totales</span> - 48<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.40 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.23 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-50</td></tr>
+                    <tr><td>Cabeza</td><td>195</td></tr>
+                    <tr><td>Cuerpo</td><td>65</td></tr>
+                    <tr><td>Piernas</td><td>49</td></tr>
+                </table>
+            </div>
+            <p class="info">Es el rifle para tiradores por excelencia. Es más pesado y cuenta con menos movilidad que los demás, pero también preciso y potente. Perfecto para cazar cabezas a larga y media distancia.</p>
+            </div>
+            <div id="phantom">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>PHANTOM</h1>
+            <img loading="lazy" src="./images/armas/phantom.webp" alt="Phantom" title="Phantom" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 156 en los 15 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 1.716 Cabeza<br>
+                                      <p class="daño">429 Cuerpo<br>
+                                      363 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.00 seg<br>
+                    <span class="minititulos">Recarga</span> - 2.50 seg<br>
+                    <span class="minititulos">Cargador</span> - 30 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                    <span class="minititulos">Balas Totales</span> - 120<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.40 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.23 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-15</td><td>15-30</td><td>30-50</td></tr>
+                    <tr><td>Cabeza</td><td>156</td><td>140</td><td>124</td></tr>
+                    <tr><td>Cuerpo</td><td>39</td><td>35</td><td>31</td></tr>
+                    <tr><td>Piernas</td><td>33</td><td>30</td><td>26</td></tr>
+                </table>
+            </div>
+            <p class="info">El modo automático es perfecto para los encuentros en espacios reducidos, mientras que las ráfagas cortas son la opción indicada en cualquier otra situación. Es mucho más precisa si no se dispara en movimiento.</p>
+            </div>
+            <div id="vandal">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>VANDAL</h1>
+            <img loading="lazy" src="./images/armas/vandal.webp" alt="Vandal" title="Vandal" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 156 en los 50 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 1.521 Cabeza<br>
+                                      <p class="daño">390 Cuerpo<br>
+                                      322 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.00 seg<br>
+                    <span class="minititulos">Recarga</span> - 2.50 seg<br>
+                    <span class="minititulos">Cargador</span> - 25 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                    <span class="minititulos">Balas Totales</span> - 100<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.40 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.23 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-50</td></tr>
+                    <tr><td>Cabeza</td><td>156</td></tr>
+                    <tr><td>Cuerpo</td><td>40</td></tr>
+                    <tr><td>Piernas</td><td>33</td></tr>
+                </table>
+            </div>
+            <p class="info">Sin embargo, va perdiendo estabilidad con el tiempo. La Vandal inflige mucho daño a larga distancia y es ideal para aquellos que se centran en acertar tiros a la cabeza.</p>
+            </div>
+            <div id="marshal">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>MARSHAL</h1>
+            <img loading="lazy" src="./images/armas/marshal.webp" alt="Marshal" title="Marshal" class="imagen-arma-c"> 
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 202 en los 50 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 303 Cabeza<br>
+                                      <p class="daño">152 Cuerpo<br>
+                                      128 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.25 seg<br>
+                    <span class="minititulos">Recarga</span> - 2.50 seg<br>
+                    <span class="minititulos">Cargador</span> - 5 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 4<br> 
+                    <span class="minititulos">Balas Totales</span> - 20<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.40 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.23 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-50</td></tr>
+                    <tr><td>Cabeza</td><td>202</td></tr>
+                    <tr><td>Cuerpo</td><td>101</td></tr>
+                    <tr><td>Piernas</td><td>85</td></tr>
+                </table>
+            </div>
+            <p class="info">Se trata de un fusil de francotirador ligero con una sola opción de zoom que mantendrá a los enemigos a raya. Eso sí, la baja velocidad de disparo garantiza que, si no acertáis en el objetivo, quedaréis expuestos.</p>
+            </div>
+            <div id="operator">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>OPERATOR</h1>
+            <img loading="lazy" src="./images/armas/operator.webp" alt="Operator" title="Operator" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 255 en los 50 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 153 Cabeza<br>
+                                      <p class="daño">90 Cuerpo<br>
+                                      72 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.50 seg<br>
+                    <span class="minititulos">Recarga</span> - 3.70 seg<br>
+                    <span class="minititulos">Cargador</span> - 5 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 3<br> 
+                    <span class="minititulos">Balas Totales</span> - 15<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.13 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.06 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-50</td></tr>
+                    <tr><td>Cabeza</td><td>255</td></tr>
+                    <tr><td>Cuerpo</td><td>150</td></tr>
+                    <tr><td>Piernas</td><td>120</td></tr>
+                </table>
+            </div>
+            <p class="info">El Operator es un fusil de francotirador de cerrojo muy potente con zoom dual. Cuenta con una movilidad nula, pero sus balas derribarán a cualquiera de un solo impacto.</p>
+            </div>
+            <div id="ares">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>ARES</h1>
+            <img loading="lazy" src="./images/armas/ares.webp" alt="Ares" title="Ares" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 72 en los 30 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 936 Cabeza<br>
+                                      <p class="daño">390 Cuerpo<br>
+                                      325 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.25 seg<br>
+                    <span class="minititulos">Recarga</span> - 3.25 seg<br>
+                    <span class="minititulos">Cargador</span> - 50 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 3<br> 
+                    <span class="minititulos">Balas Totales</span> - 150<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.13 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.06 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-30</td><td>30-50</td></tr>
+                    <tr><td>Cabeza</td><td>72</td><td>67</td></tr>
+                    <tr><td>Cuerpo</td><td>30</td><td>28</td></tr>
+                    <tr><td>Piernas</td><td>25</td><td>23</td></tr>
+                </table>
+            </div>
+            <p class="info">El gran cargador de la Ares significa que se le da de maravilla el fuego continuo e infligir grandes cantidades de daño a grupos de enemigos.</p>
+            </div>
+            <div id="odin">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>ODIN</h1>
+            <img loading="lazy" src="./images/armas/odin.webp" alt="Odin" title="Odin" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"><span class="minititulos">Daño a la Cabeza</span> - 95 en los 30 metros<br>
+                   <span class="minititulos">Daño por Segundo</span> - 1.482 Cabeza<br>
+                                      <p class="daño">593 Cuerpo<br>
+                                      499 Piernas<br></p>
+                    <p class="estadisticas">
+                    <span class="minititulos">Equipacion</span> - 1.25 seg<br>
+                    <span class="minititulos">Recarga</span> - 5.00 seg<br>
+                    <span class="minititulos">Cargador</span> - 100 Balas<br>
+                    <span class="minititulos">Cargadores Totales</span> - 3<br> 
+                    <span class="minititulos">Balas Totales</span> - 300<br>
+                    <span class="minititulos">Velocidad Corriendo</span> - 5.13 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 3.06 m/s<br>
+                    </p>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>0-30</td><td>30-50</td></tr>
+                    <tr><td>Cabeza</td><td>95</td><td>77</td></tr>
+                    <tr><td>Cuerpo</td><td>38</td><td>31</td></tr>
+                    <tr><td>Piernas</td><td>32</td><td>26</td></tr>
+                </table>
+            </div>
+            <p class="info">Dispara de forma continua e inflige mucho daño con una estabilidad sorprendente. Cubrid de balas a los enemigos en espacios reducidos o recurrid al modo alternativo para convertiros en una torreta andante.</p>
+            </div>
+            <div id="cac">
+                <a class="icono-volver" href="./armas.html"><box-icon type='solid' name='chevron-left' color="white" size="md" animation="tada"></a>
+                <h1>MELEE (CUCHILLO TACTICO)</h1>
+            <img loading="lazy" src="./images/armas/cuerpo-a-cuerpo.webp" alt="CaC" title="CaC" class="imagen-arma-c">
+            <div class="stats">
+                <h2>Estadisticas: </h2>
+                <p class="estadisticas"> <span class="minititulos">Velocidad Corriendo</span> - 6.71 m/s<br>
+                    <span class="minititulos">Velocidad Andando</span> - 4.06 m/s<br>
+                </p>
+                <h2>Mapa de Daño: </h2>
+                <table>
+                    <tr><td></td><td>De frente</td><td>Por espalda</td></tr>
+                    <tr><td>Cabeza</td><td>50</td><td>100</td></tr>
+                    <tr><td>Cuerpo</td><td>50</td><td>100</td></tr>
+                    <tr><td>Piernas</td><td>50</td><td>100</td></tr>
+                </table>
+            </div>
+            <p class="info">Si no os quedan balas, siempre tenéis vuestro cuchillo. Os permite correr con rapidez, destruir objetos mucho más rápido y acabar con enemigos por la espalda de una sola cuchillada si usáis el modo alternativo.</p>
+            </div>
+        </main>
+        <footer id="ccimages">Xemplorant &copy; Todos los derechos reservados 2023-2024</footer>
+        <script src="./java/boton.js"></script>
+        <script src="./java/armas.js"></script>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </body>
+</html>
