@@ -1619,7 +1619,6 @@ footer:hover{
     }
     /*EStilos dentro de los personajes*/
     #astra{
-        border: 1px solid white;
         display:none;
         width: 100vw;
         grid-template-areas:"titulo titulo"
